@@ -14,33 +14,12 @@ body {
     flex-direction: column;
 }
 
+/* Header Styles */
+
 header {
-    background-color: #808080;
-    
-}
-main {
-    font-family: 'quicksand', 'sans-serif';
-    background-color: #ffe5ec;
-    flex: 1 0 auto;
+    background-color: #808080;   
 }
 
-footer {
-    font-family: 'red hat display', 'sans-serif';
-    background-color: #808080;
-} 
-
-nav {
-    position: absolute;
-}
-
-#header {
-    /* display: flex;
-     justify-content: space-evenly; */
-}
-
-#header li {
-    display: inline;
-}
 /* Glamapaws Logo */
 #logo-div img {
     width: 40%;
@@ -48,3 +27,36 @@ nav {
     margin: 0 0 0 10px;
     padding: 5px 0;
 }
+
+/* Navigation Bar Styles */
+nav {
+    position: absolute;
+    background-color: #808080;
+    width: 100%;
+    box-shadow: 0 2px 2px #000000;
+}
+
+#header li {
+    padding: 0 0 5px 0;
+}
+
+#header li a {
+    color: #ffffff;
+    padding: 0 10px;
+    font-family: 'Red Hat Display', 'sans-serif';
+    
+}
+
+/* Main Content Styles */
+
+main {
+    font-family: 'quicksand', 'sans-serif';
+    background-color: #ffe5ec;
+    flex: 1 0 auto;
+}
+/* Footer Content Styles */
+
+footer {
+    font-family: 'red hat display', 'sans-serif';
+    background-color: #808080;
+} 
