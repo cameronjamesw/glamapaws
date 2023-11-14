@@ -7,12 +7,20 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color: #ffc2d1;
+    
 }
 main {
     font-family: 'quicksand', 'sans-serif';
     background-color: #808080;
+    flex: 1 0 auto;
 }
 
 footer {
