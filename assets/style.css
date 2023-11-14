@@ -17,11 +17,17 @@ body {
 /* Header Styles */
 
 header {
-    background-color: #808080;   
+    background-color: #808080;
+    position: fixed;
+    box-shadow: 0 2px 2px #000000;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Glamapaws Logo */
-#logo-div img {
+header img {
     width: 40%;
     height: 70%;
     margin: 0 0 0 10px;
@@ -34,22 +40,37 @@ nav {
     background-color: #808080;
     width: 100%;
     box-shadow: 0 2px 2px #000000;
+    display: none;
+    top: 100%;
 }
 
-#header li {
+#nav-toggle:checked~nav
+    {display: block;}
+
+header li {
     padding: 0 0 5px 0;
 }
 
-#header li a {
+header li a {
     color: #ffffff;
     padding: 0 10px;
     font-family: 'Red Hat Display', 'sans-serif';
-    
+            }
+
+#nav-toggle {
+        display: none;
+            }
+
+.nav-toggle-label {
+    padding: 10px 10px 0 0;
+    font-size: xx-large;
+    color: #000000;
 }
 
 /* Main Content Styles */
 
 main {
+    margin-top: 91px;
     font-family: 'quicksand', 'sans-serif';
     background-color: #ffe5ec;
     flex: 1 0 auto;
