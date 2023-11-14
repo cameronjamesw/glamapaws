@@ -29,6 +29,19 @@ footer {
     background-color: #808080;
 } 
 
+nav {
+    position: absolute;
+}
+
+#header {
+    /* display: flex;
+     justify-content: space-evenly; */
+}
+
+#header li {
+    display: inline;
+}
+/* Glamapaws Logo */
 #logo-div img {
     width: 40%;
     height: 70%;
