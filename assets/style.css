@@ -137,6 +137,10 @@ footer a {
         font-size: larger;
     }
 
+    nav a:hover {
+        color: #ffe5ec;
+    }
+
     /* Main Content Styles */
 
     main {
