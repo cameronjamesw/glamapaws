@@ -104,3 +104,63 @@ footer a {
     width: 100%;
     justify-content: space-around;
     }
+
+/* Media Queries */
+
+/* Tablets and larger (768px and up) */
+@media screen and (min-width: 740px) {
+    #logo {
+        width: 180px;
+        height: 120px;
+    }
+
+    header {
+        align-items: flex-end;
+    }
+
+    nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+        }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 5px;
+        font-size: larger;
+    }
+
+
+}
+
+/* Laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    #logo {
+        width: 290px;
+        height: 193px;
+    }
+
+        nav ul li {
+            font-size: x-large;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+                    letter-spacing: 2px;
+}
+
+/* Desktops and larger (1440px and up) */
+@media screen and (min-width: 1440px) {
+nav ul li {
+        margin-right: 20px;
+    }
+
+    nav ul li a {
+        letter-spacing: 4px;
+    }
