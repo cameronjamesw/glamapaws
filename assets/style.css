@@ -55,6 +55,10 @@ header li a {
     color: #ffffff;
     padding: 0 10px;
     font-family: 'Red Hat Display', 'sans-serif';
+    letter-spacing: 2px;
+    font-size: larger;
+    font-weight: bold;
+    text-transform: uppercase;
             }
 
 #nav-toggle {
@@ -65,6 +69,10 @@ header li a {
     padding: 10px 10px 0 0;
     font-size: xx-large;
     color: #ffffff;
+}
+
+header li .active {
+    color: #ffe5ec;
 }
 
 /* Main Content Styles */
