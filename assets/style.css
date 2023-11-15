@@ -17,9 +17,9 @@ body {
 /* Header Styles */
 
 header {
-    background-color: #808080;
+    background-color: #89cff0;
     position: fixed;
-    box-shadow: 0 2px 2px #000000;
+    box-shadow: 0 2px 2px #ffffff;
     z-index: 99;
     width: 100%;
     display: flex;
@@ -37,9 +37,9 @@ header img {
 /* Navigation Bar Styles */
 nav {
     position: absolute;
-    background-color: #808080;
+    background-color: #89cff0;
     width: 100%;
-    box-shadow: 0 2px 2px #000000;
+    box-shadow: 0 2px 2px #ffffff;
     display: none;
     top: 100%;
 }
@@ -64,7 +64,7 @@ header li a {
 .nav-toggle-label {
     padding: 10px 10px 0 0;
     font-size: xx-large;
-    color: #000000;
+    color: #ffffff;
 }
 
 /* Main Content Styles */
@@ -79,8 +79,8 @@ main {
 
 footer {
     font-family: 'red hat display', 'sans-serif';
-    background-color: #808080;
-    border-top: 2px solid #000000;
+    background-color: #89cff0;
+    border-top: 2px solid #ffffff;
 } 
 
 footer a {
