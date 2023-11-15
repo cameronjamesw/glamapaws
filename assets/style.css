@@ -42,6 +42,7 @@ nav {
     box-shadow: 0 2px 2px #ffffff;
     display: none;
     top: 100%;
+    z-index: 97;
 }
 
 #nav-toggle:checked~nav
@@ -75,6 +76,28 @@ header li a {
 header li .active {
     color: #ffe5ec;
 }
+
+ /* Breeds Navigation */
+
+ #breeds-nav {
+        position: absolute;
+        background-color: #89cff0;
+        width: 100%;
+        box-shadow: 0 2px 2px #ffffff;
+        top: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+ }
+
+ #breeds-menu li {
+    list-style-type: none;
+    display: inline;
+ }
+
+ #breeds-menu li a {
+    font-size: x-small;
+ }
 
 /* Main Content Styles */
 
