@@ -89,6 +89,12 @@ header li .active {
         flex-direction: row;
         justify-content: space-evenly;
  }
+ #breeds-menu {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}   
 
  #breeds-menu li {
     list-style-type: none;
@@ -96,7 +102,10 @@ header li .active {
  }
 
  #breeds-menu li a {
-    font-size: x-small;
+    font-size: smaller;
+    letter-spacing: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
  }
 
 /* Main Content Styles */
