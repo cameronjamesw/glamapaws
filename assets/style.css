@@ -119,6 +119,15 @@ main {
 .breeds-page {
     margin-top: 40px;
 }
+
+/* Hero image */
+
+#hero {
+    background: url("../assets/images/0f5d1668-3ab9-4444-8e21-6c096b2ae0d0.JPG") no-repeat center center/cover;
+    width: 100%;
+    height: 700px;
+    /* background-color: yellow; */
+}
 /* Footer Content Styles */
 
 footer {
