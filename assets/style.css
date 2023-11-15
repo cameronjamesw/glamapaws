@@ -138,7 +138,7 @@ footer a {
 /* Media Queries */
 
 /* Tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
    /* Header Styles */
     #logo {
         width: 180px;
@@ -211,4 +211,5 @@ nav ul li {
 
     nav ul li a {
         letter-spacing: 4px;
-    }
+                }
+                                        }
