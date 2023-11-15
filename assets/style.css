@@ -171,7 +171,7 @@ footer a {
         font-size: larger;
     }
 
-    nav a:hover {
+    nav a:hover, #breeds-menu a:hover {
         color: #ffe5ec;
     }
 
@@ -213,15 +213,4 @@ footer a {
 
         main {
             margin-top: 193px;
-        }
-
-/* Desktops and larger (1440px and up) */
-/* @media screen and (min-width: 1440px) {
-nav ul li {
-        margin-right: 20px;
-    }
-
-    nav ul li a {
-        letter-spacing: 4px;
-                }
-                                        } */
+             }
