@@ -71,6 +71,7 @@ header li a {
     color: #ffffff;
 }
 
+/* This is the active nav title */
 header li .active {
     color: #ffe5ec;
 }
@@ -92,11 +93,12 @@ footer {
     border-top: 2px solid #ffffff;
 } 
 
+/* Footer Background Color */
 footer a {
     color: #ffffff;
     font-size: x-large;
 }
-
+/* Footer Icons */
 #footer-icons-div {
     display: inline-flex;
     width: 100%;
