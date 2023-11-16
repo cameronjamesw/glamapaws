@@ -8,14 +8,14 @@
     box-sizing: border-box;
 }
 
-body {
+body, p {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: 'quicksand', 'sans-serif';
         }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'red hat display', 'sans-serif';
 }
 
