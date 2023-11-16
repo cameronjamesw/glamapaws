@@ -132,17 +132,16 @@ main {
     background: url("../assets/images/0f5d1668-3ab9-4444-8e21-6c096b2ae0d0.JPG") fixed no-repeat center center/cover;
     width: 100%;
     height: 600px;
-    z-index: 1;
         }
 
 /* Hero Image Text */
 #hero-text {
     background-color: rgba(140, 199, 227, 0.5);
     height: fit-content;
-    position: fixed;
-    width: 60%;
+    position: absolute;
+    width: 180px;
     left: 40%;
-    top: 50%;
+    top: 55%;
 }
 
 #hero-text p {
@@ -192,8 +191,8 @@ main {
 
 #jodie-photo {
     background: url("../assets/images/IMG_0532.PNG") no-repeat center center/cover;
-    width: 50%;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     align-self: flex-end;
     margin: 10px 0;
