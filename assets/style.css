@@ -156,7 +156,13 @@ main {
 #hero-text h2 a:hover {
     color: #000;
 }
+/* Paws Break */
 
+.paws-break {
+    background: url("../assets/images/pawprints.jpeg") repeat center center/cover;
+    width: 100%;
+    height: 300px;
+}
 /* Footer Content Styles */
 
 footer {
