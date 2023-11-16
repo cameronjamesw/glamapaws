@@ -129,7 +129,7 @@ main {
 /* Hero image */
 
 #hero {
-    background: url("../assets/images/0f5d1668-3ab9-4444-8e21-6c096b2ae0d0.JPG") local no-repeat center center/cover;
+    background: url("../assets/images/0f5d1668-3ab9-4444-8e21-6c096b2ae0d0.JPG") fixed no-repeat center center/cover;
     width: 100%;
     height: 600px;
     z-index: 1;
@@ -139,7 +139,7 @@ main {
 #hero-text {
     background-color: rgba(140, 199, 227, 0.5);
     height: fit-content;
-    position: relative;
+    position: fixed;
     width: 60%;
     left: 40%;
     top: 50%;
