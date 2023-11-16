@@ -145,7 +145,7 @@ main {
     top: 50%;
 }
 
-#hero-text h2 {
+#hero-text p {
     color: #ffffff;
     text-transform: uppercase;
     padding: 5px 10px 5px 0;
@@ -155,11 +155,11 @@ main {
     display: inline;
 }
 
-#hero-text h2 a {
+#hero-text p a {
     color: #ffe5ec;
 }
 
-#hero-text h2 a:hover {
+#hero-text p a:hover {
     color: #000;
 }
 /* Paws Break */
@@ -171,13 +171,15 @@ main {
 }
 
 /* About Me Section */
-
+#about-me {
+    background-color: rgba(137, 207, 240, 0.5);
+    padding-top: 20px;
+}
 #jodie-container {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.3);
-}
+                    }
 
 #jodie-container h3 {
     align-self: center;
