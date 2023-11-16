@@ -148,6 +148,15 @@ main {
     margin: 0px;
     display: inline;
 }
+
+#hero-text h2 a {
+    color: #ffe5ec;
+}
+
+#hero-text h2 a:hover {
+    color: #000;
+}
+
 /* Footer Content Styles */
 
 footer {
