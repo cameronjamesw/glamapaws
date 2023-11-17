@@ -142,6 +142,9 @@ main {
     width: 180px;
     right: 10px;
     top: 55%;
+    border: 2px dotted #ffffff;
+    padding: 5px;
+    box-shadow: 2px 2px grey;
 }
 
 #hero-text p {
@@ -308,8 +311,26 @@ footer a {
              }
 
           #hero {
-              background: url("../assets/images/e0c1f663-d7b7-4eaf-b70a-4fe38a06787e.JPG") scroll no-repeat center center/cover;
+              background: url("../assets/images/e0c1f663-d7b7-4eaf-b70a-4fe38a06787e.JPG") local no-repeat center center/cover;
               width: 100%;
               height: 1000px;
           }
+
+                  #hero-text {
+                      width: 450px;
+                      bottom: 60px;
+                      position: absolute;
+                      left: 10%;
+                    background-color: rgba(140, 199, 227, 0.8);
+                    border: 2px dotted #ffffff;
+                    padding: 5px;
+                    box-shadow: 2px 2px grey;
+                  }
+        
+                  #hero-text p {
+                      font-size: xx-large;
+                      text-align: justify;
+                      font-weight: 800;
+                      letter-spacing: 5px;
+                  }
                         }
