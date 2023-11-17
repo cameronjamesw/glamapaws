@@ -140,7 +140,7 @@ main {
     height: fit-content;
     position: absolute;
     width: 180px;
-    left: 40%;
+    right: 10px;
     top: 55%;
 }
 
@@ -269,6 +269,19 @@ footer a {
         margin-top: 152px;
     }
 
+    /* Hero Text Styles */
+
+    #hero-text {
+        width: 220px;
+        bottom: 60px;
+        position: absolute;
+        left: 70%;
+    }
+
+    #hero-text p {
+        font-size: larger;
+        text-align: justify;
+    }
 }
 
 /* Laptops and larger (992px and up) */
@@ -293,3 +306,10 @@ footer a {
         main {
             margin-top: 193px;
              }
+
+          #hero {
+              background: url("../assets/images/e0c1f663-d7b7-4eaf-b70a-4fe38a06787e.JPG") scroll no-repeat center center/cover;
+              width: 100%;
+              height: 1000px;
+          }
+                        }
