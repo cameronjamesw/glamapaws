@@ -230,10 +230,19 @@ main {
 
 #about-glamapaws {
     background-color: rgba(137, 207, 240, 0.7);
-    border: 1px 2px 1px solid #ffffff;
+    border: 2px solid #ffffff;
 }
 
-#about-glamapaws p 
+#about-glamapaws .heading {
+    padding: 2px 2px;
+}
+
+#about-glamapaws p {
+    color: #222021;
+        margin: 0px 5px;
+        text-align: left;
+        padding: 5px;
+}
 /* Footer Content Styles */
 
 footer {
