@@ -181,10 +181,10 @@ main {
     border: 2px solid #ffffff;
 }
 
-#about-me h1 {
+.heading {
     text-align: center;
     color: #ffffff;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     text-decoration: underline;
     font-weight: bold;
     width: 100%;
