@@ -283,6 +283,12 @@ main {
         padding: 10px;
         list-style-type: square;
 }
+
+/* Map Styles */
+
+#map {
+    border: 2px solid #ffffff;
+}
 /* Footer Content Styles */
 
 footer {
