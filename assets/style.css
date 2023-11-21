@@ -177,6 +177,7 @@ main {
 #about-me {
     background-color: rgba(137, 207, 240, 0.7);
     padding-top: 5px;
+    border: 2px solid #ffffff;
 }
 
 #about-me h1 {
@@ -189,6 +190,17 @@ main {
     padding: 0px 5px;
     font-size: 200%;
 }
+
+#about-me-list {
+    color: #222021;
+    margin: 0px 5px;
+    text-align: left;
+    padding: 5px;
+    list-style-type: none;
+    font-size: medium;
+}
+
+/* About Me Photo */
 #jodie-container {
     display: flex;
     width: 100%;
