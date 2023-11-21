@@ -170,13 +170,24 @@ main {
     background: url("../assets/images/pawprints.jpeg") repeat center center/cover;
     width: 100%;
     height: fit-content;
-    box-shadow: 0px -3px 2px white;
+    box-shadow: 0px -3px 2px #ffffff;
 }
 
 /* About Me Section */
 #about-me {
-    background-color: rgba(137, 207, 240, 0.5);
-    padding-top: 20px;
+    background-color: rgba(137, 207, 240, 0.7);
+    padding-top: 5px;
+}
+
+#about-me h1 {
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    font-weight: bold;
+    width: 100%;
+    padding: 0px 5px;
+    font-size: 200%;
 }
 #jodie-container {
     display: flex;
