@@ -265,6 +265,28 @@ main {
     padding-right: 2px;
     font-weight: bold;
 }
+
+/* About Our Pups Section */
+
+#our-pups {
+    background-color: rgba(137, 207, 240, 0.7);
+        border: 2px solid #ffffff;
+}
+
+#our-pups p {
+    color: #222021;
+        margin: 0px 5px;
+        text-align: left;
+        padding: 5px;
+}
+
+#our-pups ul {
+    color: #222021;
+        margin: 0px 5px;
+        text-align: left;
+        padding: 10px;
+        list-style-type: square;
+}
 /* Footer Content Styles */
 
 footer {
