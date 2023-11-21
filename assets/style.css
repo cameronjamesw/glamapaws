@@ -170,6 +170,7 @@ main {
     background: url("../assets/images/pawprints.jpeg") repeat center center/cover;
     width: 100%;
     height: fit-content;
+    box-shadow: 0px -3px 2px white;
 }
 
 /* About Me Section */
