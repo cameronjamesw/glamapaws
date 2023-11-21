@@ -121,10 +121,6 @@ main {
     position: absolute bottom 0px;
 }
 
-.breeds-page {
-    margin-top: 40px;
-}
-
 /* Hero image */
 
 #hero {
@@ -165,7 +161,7 @@ main {
 }
 /* Paws Break */
 
-.paws-break {
+.paws {
     background: url("../assets/images/pawprints.jpeg") repeat center center/cover;
     width: 100%;
     height: fit-content;
