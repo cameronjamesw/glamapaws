@@ -189,6 +189,12 @@ main {
 .white {
     color: #ffffff;
     background-color: transparent;
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+    background-color: transparent;
 }
 
 #about-me-list {
