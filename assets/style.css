@@ -287,13 +287,17 @@ main {
         text-align: left;
         padding: 5px;
 }
-
+/* Puppy List */
 #our-pups ul {
-    color: #222021;
+    color: #ffffff;
         margin: 0px 5px;
         text-align: left;
         padding: 0px 15px;
         list-style-type: square;
+}
+
+#our-pups span, h3 {
+    color:#222021
 }
 
 /* Map Styles */
