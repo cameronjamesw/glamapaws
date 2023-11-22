@@ -12,9 +12,14 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'quicksand', 'sans-serif';
-        }
+}
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'red hat display', 'sans-serif';
 }
 
@@ -50,8 +55,9 @@ nav {
     z-index: 97;
 }
 
-#nav-toggle:checked~nav
-    {display: block;}
+#nav-toggle:checked~nav {
+    display: block;
+}
 
 header li {
     padding: 0 0 5px 0;
@@ -65,11 +71,11 @@ header li a {
     font-size: larger;
     font-weight: bold;
     text-transform: uppercase;
-            }
+}
 
 #nav-toggle {
-        display: none;
-            }
+    display: none;
+}
 
 .nav-toggle-label {
     padding: 10px 10px 0 0;
@@ -82,34 +88,34 @@ header li .active {
     color: #ffe5ec;
 }
 
- /* Breeds Navigation */
+/* Breeds Navigation */
 
- #breeds-nav {
-        position: absolute;
-        background-color: #89cff0;
-        width: 100%;
-        box-shadow: 0 2px 2px #ffffff;
-        top: 100%;
-                }
+#breeds-nav {
+    position: absolute;
+    background-color: #89cff0;
+    width: 100%;
+    box-shadow: 0 2px 2px #ffffff;
+    top: 100%;
+}
 
- #breeds-menu {
+#breeds-menu {
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
-}   
+}
 
- #breeds-menu li {
+#breeds-menu li {
     list-style-type: none;
     display: inline;
- }
+}
 
- #breeds-menu li a {
+#breeds-menu li a {
     font-size: smaller;
     letter-spacing: 0px;
     padding-bottom: 5px;
     margin-bottom: 5px;
- }
+}
 
 /* Main Content Styles */
 
@@ -125,9 +131,9 @@ main {
 
 #hero {
     background: url("../assets/images/0f5d1668-3ab9-4444-8e21-6c096b2ae0d0.JPG") scroll no-repeat bottom center/cover;
-    width: 100%;
-    height: 600px;
-        }
+    width: 100vw;
+    height: 80vh;
+}
 
 /* Hero Image Text */
 #hero-text {
@@ -159,6 +165,7 @@ main {
 #hero-text p a:hover {
     color: #000;
 }
+
 /* Paws Break */
 
 .paws {
@@ -186,6 +193,7 @@ main {
     padding: 0px 5px;
     font-size: 200%;
 }
+
 .white {
     color: #ffffff;
     background-color: transparent;
@@ -203,7 +211,7 @@ main {
     text-align: left;
     padding: 5px;
     list-style-type: none;
-                }
+}
 
 #about-me-list li {
     font-size: large;
@@ -214,7 +222,7 @@ main {
     display: flex;
     width: 100%;
     justify-content: space-between;
-                    }
+}
 
 #jodie-container h3 {
     align-self: center;
@@ -227,18 +235,19 @@ main {
 
 #jodie-photo {
     background: url("../assets/images/IMG_0532.PNG") no-repeat center center/cover;
-    width: 100%;
-    height: 350px;
+    width: 100vw;
+    height: 40vh;
     align-self: center;
     border-top: 2px solid #ffffff;
 }
+
 /* About Glamapaws */
 
 #about-glamapaws {
     background-color: rgba(195, 177, 225, 0.7);
     border: 2px solid #ffffff;
     justify-content: space-between;
-    }
+}
 
 #about-glamapaws .heading {
     padding: 2px 2px;
@@ -246,9 +255,9 @@ main {
 
 #about-glamapaws p {
     color: #222021;
-        margin: 0px 5px;
-        text-align: left;
-        padding: 5px;
+    margin: 0px 5px;
+    text-align: left;
+    padding: 5px;
 }
 
 /* Certifications Section */
@@ -277,27 +286,29 @@ main {
 
 #our-pups {
     background-color: rgba(119, 221, 119, 0.7);
-        border: 2px solid #ffffff;
-        padding-bottom: 5px;
+    border: 2px solid #ffffff;
+    padding-bottom: 5px;
 }
 
 #our-pups p {
     color: #222021;
-        margin: 0px 5px;
-        text-align: left;
-        padding: 5px;
+    margin: 0px 5px;
+    text-align: left;
+    padding: 5px;
 }
+
 /* Puppy List */
 #our-pups ul {
     color: #ffffff;
-        margin: 0px 5px;
-        text-align: left;
-        padding: 0px 15px;
-        list-style-type: square;
+    margin: 0px 5px;
+    text-align: left;
+    padding: 0px 15px;
+    list-style-type: square;
 }
 
-#our-pups span, h3 {
-    color:#222021
+#our-pups span,
+h3 {
+    color: #222021
 }
 
 /* Map Styles */
@@ -305,31 +316,34 @@ main {
 #map {
     border: 2px solid #ffffff;
 }
+
 /* Footer Content Styles */
 
 footer {
     font-family: 'red hat display', 'sans-serif';
     background-color: #89cff0;
     border-top: 2px solid #ffffff;
-} 
+}
 
 /* Footer Background Color */
 footer a {
     color: #ffffff;
     font-size: x-large;
 }
+
 /* Footer Icons */
 #footer-icons-div {
     display: inline-flex;
     width: 100%;
     justify-content: space-around;
-    }
+}
 
 /* Media Queries */
 
 /* Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-   /* Header Styles */
+
+    /* Header Styles */
     #logo {
         width: 180px;
         height: 120px;
@@ -340,11 +354,11 @@ footer a {
     }
 
     nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-        }
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+    }
 
     .nav-toggle-label {
         display: none;
@@ -357,7 +371,8 @@ footer a {
         font-size: larger;
     }
 
-    nav a:hover, #breeds-menu a:hover {
+    nav a:hover,
+    #breeds-menu a:hover {
         color: #ffe5ec;
     }
 
@@ -378,11 +393,17 @@ footer a {
 
     /* Hero Text Styles */
 
+    #hero {
+        background: url("../assets/images/e0c1f663-d7b7-4eaf-b70a-4fe38a06787e.JPG") local no-repeat center center/cover;
+        width: 100vw;
+        height: 100vh;
+    }
+
     #hero-text {
         width: 220px;
-        bottom: 60px;
+        bottom: 80px;
         position: absolute;
-        left: 70%;
+        left: 15%;
     }
 
     #hero-text p {
@@ -393,48 +414,49 @@ footer a {
 
 /* Laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-    
+
     /* Header Styles */
     #logo {
         width: 290px;
         height: 193px;
     }
 
-        nav ul li {
-            font-size: x-large;
-            margin-right: 10px;
-        }
+    nav ul li {
+        font-size: x-large;
+        margin-right: 10px;
+    }
 
-        nav ul li a {
-                    letter-spacing: 2px;}
-        
-        /* Main Content Stlyes */
+    nav ul li a {
+        letter-spacing: 2px;
+    }
 
-        main {
-            margin-top: 193px;
-             }
+    /* Main Content Stlyes */
 
-          #hero {
-              background: url("../assets/images/e0c1f663-d7b7-4eaf-b70a-4fe38a06787e.JPG") local no-repeat center center/cover;
-              width: 100%;
-              height: 1000px;
-          }
+    main {
+        margin-top: 193px;
+    }
 
-                  #hero-text {
-                      width: 450px;
-                      bottom: 60px;
-                      position: absolute;
-                      left: 10%;
-                    background-color: rgba(140, 199, 227, 0.8);
-                    border: 2px dotted #ffffff;
-                    padding: 5px;
-                    box-shadow: 2px 2px grey;
-                  }
-        
-                  #hero-text p {
-                      font-size: xx-large;
-                      text-align: justify;
-                      font-weight: 800;
-                      letter-spacing: 5px;
-                  }
-                        }
+    #hero {
+        background: url("../assets/images/e0c1f663-d7b7-4eaf-b70a-4fe38a06787e.JPG") local no-repeat center center/cover;
+        width: 100vw;
+        height: 300vh;
+    }
+
+    #hero-text {
+        width: 450px;
+        bottom: 60px;
+        position: absolute;
+        left: 10%;
+        background-color: rgba(140, 199, 227, 0.8);
+        border: 2px dotted #ffffff;
+        padding: 5px;
+        box-shadow: 2px 2px grey;
+    }
+
+    #hero-text p {
+        font-size: xx-large;
+        text-align: justify;
+        font-weight: 800;
+        letter-spacing: 5px;
+    }
+}
