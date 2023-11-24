@@ -344,6 +344,44 @@ h3 {
     padding: 5px;
 }
 
+/* About Dach Content */
+
+#about-dach {
+    background-color: #c3b1e1;
+    border: 2px solid #ffffff;
+}
+#about-dach h2 {
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#about-dach p {
+    text-align: justify;
+    padding: 5px;
+}
+#about-dach div {
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    background-color: #c3b1e1;
+}
+
+#about-dach h3 {
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 2px 5px;
+}
+
+#about-dach ul {
+    color: #222021;
+    padding: 5px;
+    margin-left: 15px;
+
+}
+
 /* Footer Content Styles */
 
 footer {
