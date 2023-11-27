@@ -433,6 +433,8 @@ h3 {
 #doodle-text h1 {
     text-align: center;
     color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 /* Footer Content Styles */
