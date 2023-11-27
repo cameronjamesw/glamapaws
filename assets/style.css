@@ -120,7 +120,7 @@ header li .active {
 /* Main Content Styles */
 
 main {
-    margin-top: 105px;
+    /* margin-top: 105px; */
     font-family: 'quicksand', 'sans-serif';
     background-color: #ffe5ec;
     flex: 1 0 auto;
