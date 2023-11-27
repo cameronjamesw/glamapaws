@@ -391,17 +391,23 @@ h3 {
 #retr-hero {
     background: url("../assets/images/IMG_0599.JPG") no-repeat scroll center center/cover;
     width: 100%;
-    height: 600px;
+    height: 800px;
+    margin-top: 50px;
 }
 
 #retr-text {
-    color: #ffffff;
     background-color: rgba(140, 199, 227, 0.5);
     border: dotted 2px #ffffff;
     padding: 5px;
     position: relative;
-    right: 30px;
-    bottom: 20px;
+    right: -150px;
+    top: 360px;
+    width: 150px;
+}
+
+#retr-text h1 {
+    text-align: center;
+    color: #ffffff;
 }
 
 /* Footer Content Styles */
