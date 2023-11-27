@@ -613,11 +613,6 @@ footer a {
 @media screen and (min-width: 992px) {
 
     /* Header Styles */
-    #logo {
-        width: 290px;
-        height: 193px;
-    }
-
     nav ul li {
         font-size: x-large;
         margin-right: 10px;
@@ -630,13 +625,13 @@ footer a {
     /* Main Content Stlyes */
 
     main {
-        margin-top: 193px;
+        margin-top: 124px;
     }
 
     #hero {
         background: url("../assets/images/e0c1f663-d7b7-4eaf-b70a-4fe38a06787e.JPG") local no-repeat center center/cover;
         width: 100vw;
-        height: 300vh;
+        height: 120vh;
     }
 
     #hero-text {
