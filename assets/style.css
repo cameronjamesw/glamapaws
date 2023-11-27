@@ -386,6 +386,14 @@ h3 {
 
 }
 
+/* Retriever Hero */
+
+#retr-hero {
+    background: url("../assets/images/IMG_0599.JPG") no-repeat scroll center center/cover;
+    width: 100%;
+    height: 600px;
+}
+
 /* Footer Content Styles */
 
 footer {
