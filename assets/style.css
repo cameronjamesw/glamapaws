@@ -325,7 +325,7 @@ h3 {
 /* Dach Hero Section */
 #dach-hero {
     background: url("../assets/images/IMG_5950.PNG") no-repeat fixed left center;
-    height: 600px; 
+    height: 800px; 
     width: 100%;
     margin-top: 0px;
 }
@@ -388,14 +388,13 @@ h3 {
 
 /* Retriever Hero Image */
 
-#retr-hero {
+#doodle-hero {
     background: url("../assets/images/IMG_0599.JPG") no-repeat scroll center center/cover;
     width: 100%;
     height: 800px;
-    margin-top: 50px;
 }
 
-#retr-text {
+#doodle-text {
     background-color: rgba(140, 199, 227, 0.5);
     border: dotted 2px #ffffff;
     padding: 5px;
@@ -405,7 +404,7 @@ h3 {
     width: 150px;
 }
 
-#retr-text h1 {
+#doodle-text h1 {
     text-align: center;
     color: #ffffff;
 }
