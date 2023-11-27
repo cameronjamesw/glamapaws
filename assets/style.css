@@ -12,6 +12,14 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'quicksand', 'sans-serif';
+    min-height: 100vh;
+}
+
+main {
+    margin-top: 109px;
+    font-family: 'quicksand', 'sans-serif';
+    background-color: #ffe5ec;
+    flex: 1 0 auto;
 }
 
 h1,
@@ -119,14 +127,9 @@ header li .active {
 
 /* Main Content Styles */
 
-main {
-    /* margin-top: 105px; */
-    font-family: 'quicksand', 'sans-serif';
-    background-color: #ffe5ec;
-    flex: 1 0 auto;
-    position: absolute bottom 0px;
+.breeds-page {
+    margin-top: 25px;
 }
-
 /* Hero image */
 
 #hero {
@@ -389,6 +392,7 @@ footer {
     font-family: 'red hat display', 'sans-serif';
     background-color: #89cff0;
     border-top: 2px solid #ffffff;
+    align-content: flex-end;
 }
 
 /* Footer Background Color */
