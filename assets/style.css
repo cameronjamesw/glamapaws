@@ -473,6 +473,46 @@ h3 {
     letter-spacing: 2px;
 }
 
+/* Doodle About Me Section */
+
+#about-doodle {
+    background-color: #afa076;
+    border: 2px solid #ffffff;
+    padding: 2px;
+}
+
+#about-doodle p {
+    text-align: justify;
+    padding: 5px;
+}
+
+#about-doodle div {
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    width: 100%;
+}
+
+#about-doodle h2 {
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#about-doodle h3 {
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 2px 5px;
+}
+
+#about-doodle ul {
+    color: #222021;
+    padding: 5px;
+    margin-left: 15px;
+}
+
 /* Footer Content Styles */
 
 footer {
