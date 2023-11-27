@@ -412,6 +412,42 @@ h3 {
     letter-spacing: 2px;
 
 }
+
+/* About Retriever Text */
+
+#about-retr {
+    background-color: #dfcaa0;
+    border: 2px solid #ffffff;
+    padding: 2px;
+}
+
+#about-retr div {
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    width: 100%;
+}
+
+#about-retr h2 {
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#about-retr h3 {
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 2px 5px;
+}
+
+#about-retr ul {
+    color: #222021;
+    padding: 5px;
+    margin-left: 15px;
+}
+
 /* Doodle Hero Image */
 
 #doodle-hero {
