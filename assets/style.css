@@ -394,6 +394,24 @@ h3 {
     height: 800px;
     margin-top: 50px;
 }
+
+#retr-text {
+    background-color: rgba(140, 199, 227, 0.5);
+    border: dotted 2px #ffffff;
+    padding: 5px;
+    position: relative;
+    width: 200px;
+    top: 400px;
+    left: 30px;
+}
+
+#retr-text h1 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
 /* Doodle Hero Image */
 
 #doodle-hero {
