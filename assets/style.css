@@ -454,7 +454,7 @@ h3 {
 /* Doodle Hero Image */
 
 #doodle-hero {
-    background: url("../assets/images/IMG_0599.JPG") no-repeat fixed center center/cover;
+    background: url("../assets/images/pexels-jayden-burdick-3397939.jpg") no-repeat fixed center center/cover;
     width: 100%;
     height: 800px;
 }
@@ -650,6 +650,27 @@ footer a {
         font-size: 2em;
         letter-spacing: 2px;
     }
+
+    /* Doodle Page Styles */
+
+        #doodle-hero {
+            background: url("../assets/images/pexels-olya-harytovich-17075260.jpg") no-repeat scroll center center/cover;
+            width: 100%;
+            height: 900px;
+        }
+    
+        #doodle-text {
+            padding: 5px;
+            position: absolute;
+            left: 20px;
+            top: 500px;
+            width: 200px;
+        }
+    
+        #doodle-text h1 {
+            letter-spacing: 2px;
+            font-size: 2em;
+        }
 }
 
 /* Laptops and larger (992px and up) */
@@ -722,7 +743,7 @@ footer a {
     }
 
     #dach-hero div {
-        left: 30px;
+        right: 30px;
         top: 150px;
         position: relative;
         width: 400px;
@@ -735,5 +756,27 @@ footer a {
         font-size: 3em;
         letter-spacing: 2px;
     }
+
+    /* Doodle Page Styles */
+
+        #doodle-hero {
+            background: url("../assets/images/pexels-olya-harytovich-17075260.jpg") no-repeat scroll center center;
+            height: 100vh;
+            width: 100vw;
+            margin-top: 25px;
+        }
+    
+        #doodle-text {
+            padding: 5px;
+            position: absolute;
+            left: 70%;
+            top: 500px;
+            width: 300px;
+        }
+    
+        #doodle-text h1 {
+            letter-spacing: 2px;
+            font-size: 3em;
+        }
 }
 }
