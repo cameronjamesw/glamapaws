@@ -621,7 +621,6 @@ footer a {
             display: flex;
             width: 50%;
             height: 380px;
-            justify-content: space-between;
             border: 2px solid #ffffff;
         }
 
@@ -631,22 +630,29 @@ footer a {
             height: 100%;
             align-self: flex-start;
         }
+    
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+        } 
 
+        .flex div {
+            flex-basis: 384px;
+            flex-grow: 1;
+        }
+         
         /* Certifications Section */
     
-        #certifications {
-            padding: 5px;
+       #certifications {
+            padding: 10px;
             border: 2px solid #ffffff;
             text-align: left;
-            width: 50%;
-            position: absolute;
-            left: 50%;
-            top: 1273px;
-            height: 380px;
+            
         }
     
         #certifications p {
             display: inline;
+            font-size: 1.5em;
         }
     
         .tick {
@@ -654,12 +660,66 @@ footer a {
             margin-left: 5px;
             padding-right: 2px;
             font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        /* About Glamapaws */
+    
+        #about-glamapaws {
+            border: 2px solid #ffffff;
+            justify-content: space-between;
         }
     
+        #about-glamapaws .heading {
+            padding: 2px 2px;
+        }
+    
+        #about-glamapaws p {
+            margin: 0px 5px;
+            text-align: left;
+            padding: 5px;
+            font-size: 1.5em;
+        }
+    
+         /* About Our Pups Section */
+    
+         #our-pups {
+             padding-bottom: 5px;
+         }
+    
+         #our-pups p {
+             margin: 0px 5px;
+             text-align: left;
+             padding: 5px;
+             font-size: 1.5em;
+         }
+    
+         /* Puppy List */
+         #our-pups ul {
+             margin: 0px 10px;
+             text-align: left;
+             padding: 0px 15px;
+             list-style-type: square;
+         }
+
+        #our-pups ul li {
+            font-size: 1.5em;
+        }
+    
+         #our-pups span,
+         h3 {
+             color: #222021;
+         }
+
+         #our-pups h3 {
+            font-size: 1.5em;
+         }
+
     /* Map Styles */
 
     #map {
     border: 2px solid #ffffff;
+    height: 500px;
 }
         
 
