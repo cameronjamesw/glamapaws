@@ -498,11 +498,11 @@ h3 {
 #about-doodle p {
     text-align: justify;
     padding: 5px;
+    color: #003200;
 }
 
 #about-doodle div {
-    border-top: 2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    border: 2px solid #fff;
     width: 100%;
 }
 
@@ -522,9 +522,10 @@ h3 {
 }
 
 #about-doodle ul {
-    color: #222021;
+    color: #003200;
     padding: 5px;
     margin-left: 15px;
+    list-style-type: square;
 }
 
 /* Footer Content Styles */
@@ -835,7 +836,6 @@ footer a {
     /* About Retriever Text */
 
     #about-dach h2 {
-        text-align: center;
         letter-spacing: 4px;
         font-size: 2em;
     }
@@ -878,6 +878,44 @@ footer a {
     #doodle-text h1 {
         letter-spacing: 2px;
         font-size: 2em;
+    }
+
+    /* Doodle Flex */
+
+    .doodle-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .doodle-flex div {
+        flex-basis: 370px;
+        flex-grow: 1;
+    }
+
+    /* Doodle About Me Section */
+
+    #about-doodle h2 {
+        letter-spacing: 4px;
+        font-size: 2em;
+    }
+
+    #about-doodle h3 {
+        padding: 2px 5px;
+        font-size: 1.5em;
+        letter-spacing: 2px;
+    }
+
+    #about-doodle ul {
+        padding: 5px;
+        margin-left: 20px;
+    }
+
+    #about-doodle li {
+        font-size: 1.2rem;
+    }
+
+    #about-doodle p {
+        font-size: 1.2rem;
     }
 }
 
