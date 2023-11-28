@@ -18,7 +18,7 @@ body {
 main {
     margin-top: 109px;
     font-family: 'quicksand', 'sans-serif';
-    background-color: #ffe5ec;
+    background-color: #003200;
     flex: 1 0 auto;
 }
 
@@ -141,7 +141,7 @@ header li .active {
 
 /* Hero Image Text */
 #hero-text {
-    background-color: rgba(0, 50, 0, 0.5);
+    background-color: rgba(0, 50, 0, 0.9);
     height: fit-content;
     position: absolute;
     width: 180px;
@@ -181,7 +181,7 @@ header li .active {
 /* About Me Section */
 
 #about-me {
-    background-color: rgba(0, 50, 0, 0.7);
+    background-color: rgba(0, 50, 0, 0.9);
     padding-top: 5px;
     border: 2px solid #cc9900;
 }
@@ -198,7 +198,7 @@ header li .active {
 }
 
 .white {
-    color: #ffffff;
+    color: #c90;
     background-color: transparent;
     font-weight: bold;
 }
@@ -206,10 +206,11 @@ header li .active {
 .underline {
     text-decoration: underline;
     background-color: transparent;
+    color: #fff;
 }
 
 #about-me-list {
-    color: #222021;
+    color: #fff;
     margin: 0px 5px;
     text-align: left;
     padding: 5px;
@@ -238,7 +239,7 @@ header li .active {
 /* About Glamapaws */
 
 #about-glamapaws {
-    background-color: rgba(0, 50, 0, 0.7);
+    background-color: rgba(0, 50, 0, 0.9);
     border: 2px solid #cc9900;
     justify-content: space-between;
 }
@@ -248,7 +249,7 @@ header li .active {
 }
 
 #about-glamapaws p {
-    color: #222021;
+    color: #fff;
     margin: 0px 5px;
     text-align: left;
     padding: 5px;
@@ -269,7 +270,7 @@ header li .active {
 }
 
 .tick {
-    color: #003200;
+    color: #c90;
     display: inline-block;
     margin-left: 5px;
     padding-right: 2px;
@@ -279,13 +280,13 @@ header li .active {
 /* About Our Pups Section */
 
 #our-pups {
-    background-color: rgba(119, 221, 119, 0.7);
-    border: 2px solid #ffffff;
+    background-color: rgba(0, 50, 0, 0.9);
+    border: 2px solid #c90;
     padding-bottom: 5px;
 }
 
 #our-pups p {
-    color: #222021;
+    color: #fff;
     margin: 0px 5px;
     text-align: left;
     padding: 5px;
@@ -293,7 +294,7 @@ header li .active {
 
 /* Puppy List */
 #our-pups ul {
-    color: #ffffff;
+    color: #c90;
     margin: 0px 5px;
     text-align: left;
     padding: 0px 15px;
@@ -302,7 +303,7 @@ header li .active {
 
 #our-pups span,
 h3 {
-    color: #222021
+    color: #fff
 }
 
 /* Map Styles */
@@ -816,10 +817,7 @@ footer a {
         bottom: 60px;
         position: absolute;
         left: 10%;
-        background-color: rgba(140, 199, 227, 0.8);
-        border: 2px dotted #ffffff;
         padding: 5px;
-        box-shadow: 2px 2px grey;
     }
 
     #hero-text p {
