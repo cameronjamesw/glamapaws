@@ -764,38 +764,38 @@ footer a {
 
     /* Retriever Flex */
 
-     .retr-flex {
-            display: flex;
-            flex-wrap: wrap;
-        }
-    
-        .retr-flex div {
-            flex-basis: 370px;
-            flex-grow: 1;
-        }
+    .retr-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-        /* About Retriever Text */
-    
-        #about-retr h2 {
-            text-align: center;
-            letter-spacing: 4px;
-            font-size: 2em;
-        }
-    
-        #about-retr h3 {
-            padding: 2px 5px;
-            font-size: 1.5em;
-            letter-spacing: 2px;
-        }
-    
-        #about-retr ul {
-            padding: 5px;
-            margin-left: 20px;
-        }
+    .retr-flex div {
+        flex-basis: 370px;
+        flex-grow: 1;
+    }
 
-        #about-retr li {
-            font-size: 1.2rem;
-        }
+    /* About Retriever Text */
+
+    #about-retr h2 {
+        text-align: center;
+        letter-spacing: 4px;
+        font-size: 2em;
+    }
+
+    #about-retr h3 {
+        padding: 2px 5px;
+        font-size: 1.5em;
+        letter-spacing: 2px;
+    }
+
+    #about-retr ul {
+        padding: 5px;
+        margin-left: 20px;
+    }
+
+    #about-retr li {
+        font-size: 1.2rem;
+    }
 
     /* Dachshund Page Styles */
 
@@ -820,17 +820,44 @@ footer a {
         letter-spacing: 2px;
     }
 
-        /* Dachshund Flex */
-    
-        .dach-flex {
-            display: flex;
-            flex-wrap: wrap;
-        }
-    
-        .dach-flex div {
-            flex-basis: 370px;
-            flex-grow: 1;
-        }
+    /* Dachshund Flex */
+
+    .dach-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .dach-flex div {
+        flex-basis: 370px;
+        flex-grow: 1;
+    }
+
+    /* About Retriever Text */
+
+    #about-dach h2 {
+        text-align: center;
+        letter-spacing: 4px;
+        font-size: 2em;
+    }
+
+    #about-dach h3 {
+        padding: 2px 5px;
+        font-size: 1.5em;
+        letter-spacing: 2px;
+    }
+
+    #about-dach ul {
+        padding: 5px;
+        margin-left: 20px;
+    }
+
+    #about-dach li {
+        font-size: 1.2rem;
+    }
+
+    #about-dach p {
+        font-size: 1.2rem;
+    }
 
     /* Doodle Page Styles */
 
@@ -977,23 +1004,22 @@ footer a {
         font-size: 4em;
     }
 
-        /* About Retriever Text */
-    
-        #about-retr h2 {
-            text-align: center;
-            letter-spacing: 4px;
-            font-size: 3rem;
-        }
-    
-        #about-retr h3 {
-            padding: 2px 5px;
-            font-size: 2rem;
-            letter-spacing: 5px;
-        }
-    
-        #about-retr li {
-            font-size: 1.5rem;
-        }
+    /* About Retriever Text */
+
+    #about-retr h2 {
+        letter-spacing: 4px;
+        font-size: 3rem;
+    }
+
+    #about-retr h3 {
+        padding: 2px 5px;
+        font-size: 2rem;
+        letter-spacing: 5px;
+    }
+
+    #about-retr li {
+        font-size: 1.5rem;
+    }
 
     /* Dachshund Page Styles */
 
@@ -1016,6 +1042,27 @@ footer a {
         padding: 5px;
         font-size: 3em;
         letter-spacing: 2px;
+    }
+
+    /* About Dach Text */
+
+    #about-dach h2 {
+        letter-spacing: 4px;
+        font-size: 3rem;
+    }
+
+    #about-dach h3 {
+        padding: 2px 5px;
+        font-size: 2rem;
+        letter-spacing: 5px;
+    }
+
+    #about-dach li {
+        font-size: 1.5rem;
+    }
+
+    #about-dach p {
+        font-size: 1.5rem;
     }
 
     /* Doodle Page Styles */
