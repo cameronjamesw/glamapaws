@@ -636,7 +636,10 @@ footer a {
             display: flex;
             width: 50%;
             height: 380px;
-            border: 2px solid #ffffff;
+            border-top: 1px solid #cc9900;
+            border-left: 2px solid #cc9900;
+            border-right: 1px solid #cc9900;
+            border-bottom: 1px solid #cc9900;
         }
 
         #jodie-photo {
@@ -660,7 +663,10 @@ footer a {
     
        #certifications {
             padding: 10px;
-            border: 2px solid #ffffff;
+            border-top: 1px solid #c90;
+            border-right: 2px solid #cc9900;
+            border-left: 1px solid #cc9900;
+            border-bottom: 1px solid #cc9900;
             text-align: left;
             
         }
@@ -681,7 +687,6 @@ footer a {
         /* About Glamapaws */
     
         #about-glamapaws {
-            border: 2px solid #ffffff;
             justify-content: space-between;
         }
     
@@ -728,7 +733,6 @@ footer a {
     /* Map Styles */
 
     #map {
-    border: 2px solid #ffffff;
     height: 500px;
 }
         
