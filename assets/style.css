@@ -228,15 +228,6 @@ header li .active {
     justify-content: space-between;
 }
 
-#jodie-container h3 {
-    align-self: center;
-    text-transform: uppercase;
-    font-size: large;
-    margin-left: 10px;
-    color: #ffffff;
-    font-weight: bolder;
-}
-
 #jodie-photo {
     background: url("../assets/images/IMG_0532.PNG") no-repeat center center/cover;
     width: 100vw;
@@ -586,7 +577,7 @@ footer a {
     main {
         margin-top: 124px;
     }
-
+    /* Home Page Styles*/
     /* Hero Text Styles */
 
     #hero {
@@ -607,7 +598,70 @@ footer a {
         text-align: justify;
     }
 
-    /* About Page Styles */
+    /* About Section Styles */
+    
+        .heading {
+            letter-spacing: 4px;
+            padding: 0px 5px;
+            font-size: 2.5em;
+            text-transform: uppercase;
+        }
+
+        #about-me-list {
+            margin: 0px 5px;
+            padding: 5px;
+        }
+    
+        #about-me-list li {
+            font-size: 1.5em;
+        }
+
+        /* About Me Photo */
+        #jodie-container {
+            display: flex;
+            width: 50%;
+            height: 380px;
+            justify-content: space-between;
+            border: 2px solid #ffffff;
+        }
+
+        #jodie-photo {
+            background: url("../assets/images/IMG_0532.PNG") no-repeat center center/cover;
+            width: 100%;
+            height: 100%;
+            align-self: flex-start;
+        }
+
+        /* Certifications Section */
+    
+        #certifications {
+            padding: 5px;
+            border: 2px solid #ffffff;
+            text-align: left;
+            width: 50%;
+            position: absolute;
+            left: 50%;
+            top: 1273px;
+            height: 380px;
+        }
+    
+        #certifications p {
+            display: inline;
+        }
+    
+        .tick {
+            display: inline-block;
+            margin-left: 5px;
+            padding-right: 2px;
+            font-weight: bold;
+        }
+    
+    /* Map Styles */
+
+    #map {
+    border: 2px solid #ffffff;
+}
+        
 
     /* Retriever Page Styles */
     #retr-hero {
@@ -785,5 +839,4 @@ footer a {
             letter-spacing: 2px;
             font-size: 3em;
         }
-}
 }
