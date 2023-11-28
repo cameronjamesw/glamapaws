@@ -592,6 +592,7 @@ footer a {
     main {
         margin-top: 124px;
     }
+
     /* Home Page Styles*/
     /* Hero Text Styles */
 
@@ -614,130 +615,130 @@ footer a {
     }
 
     /* About Section Styles */
-    
-        .heading {
-            letter-spacing: 4px;
-            padding: 0px 5px;
-            font-size: 2.5em;
-            text-transform: uppercase;
-        }
 
-        #about-me-list {
-            margin: 0px 5px;
-            padding: 5px;
-        }
-    
-        #about-me-list li {
-            font-size: 1.5em;
-        }
+    .heading {
+        letter-spacing: 4px;
+        padding: 0px 5px;
+        font-size: 2.5em;
+        text-transform: uppercase;
+    }
 
-        /* About Me Photo */
-        #jodie-container {
-            display: flex;
-            width: 50%;
-            height: 380px;
-            border-top: 1px solid #cc9900;
-            border-left: 2px solid #cc9900;
-            border-right: 1px solid #cc9900;
-            border-bottom: 1px solid #cc9900;
-        }
+    #about-me-list {
+        margin: 0px 5px;
+        padding: 5px;
+    }
 
-        #jodie-photo {
-            background: url("../assets/images/IMG_0532.PNG") no-repeat center center/cover;
-            width: 100%;
-            height: 100%;
-            align-self: flex-start;
-        }
-    
-        .flex {
-            display: flex;
-            flex-wrap: wrap;
-        } 
+    #about-me-list li {
+        font-size: 1.5em;
+    }
 
-        .flex div {
-            flex-basis: 384px;
-            flex-grow: 1;
-        }
-         
-        /* Certifications Section */
-    
-       #certifications {
-            padding: 10px;
-            border-top: 1px solid #c90;
-            border-right: 2px solid #cc9900;
-            border-left: 1px solid #cc9900;
-            border-bottom: 1px solid #cc9900;
-            text-align: left;
-            
-        }
-    
-        #certifications p {
-            display: inline;
-            font-size: 1.5em;
-        }
-    
-        .tick {
-            display: inline-block;
-            margin-left: 5px;
-            padding-right: 2px;
-            font-weight: bold;
-            font-size: 1.5em;
-        }
+    /* About Me Photo */
+    #jodie-container {
+        display: flex;
+        width: 50%;
+        height: 380px;
+        border-top: 1px solid #cc9900;
+        border-left: 2px solid #cc9900;
+        border-right: 1px solid #cc9900;
+        border-bottom: 1px solid #cc9900;
+    }
 
-        /* About Glamapaws */
-    
-        #about-glamapaws {
-            justify-content: space-between;
-        }
-    
-        #about-glamapaws .heading {
-            padding: 2px 2px;
-        }
-    
-        #about-glamapaws p {
-            margin: 0px 5px;
-            text-align: left;
-            padding: 5px;
-            font-size: 1.5em;
-        }
-    
-         /* About Our Pups Section */
-    
-         #our-pups {
-             padding-bottom: 5px;
-         }
-    
-         #our-pups p {
-             margin: 0px 5px;
-             text-align: left;
-             padding: 5px;
-             font-size: 1.5em;
-         }
-    
-         /* Puppy List */
-         #our-pups ul {
-             margin: 0px 10px;
-             text-align: left;
-             padding: 0px 15px;
-             list-style-type: square;
-         }
+    #jodie-photo {
+        background: url("../assets/images/IMG_0532.PNG") no-repeat center center/cover;
+        width: 100%;
+        height: 100%;
+        align-self: flex-start;
+    }
 
-        #our-pups ul li {
-            font-size: 1.5em;
-        }
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-         #our-pups h3 {
-            font-size: 1.5em;
-         }
+    .flex div {
+        flex-basis: 384px;
+        flex-grow: 1;
+    }
+
+    /* Certifications Section */
+
+    #certifications {
+        padding: 10px;
+        border-top: 1px solid #c90;
+        border-right: 2px solid #cc9900;
+        border-left: 1px solid #cc9900;
+        border-bottom: 1px solid #cc9900;
+        text-align: left;
+
+    }
+
+    #certifications p {
+        display: inline;
+        font-size: 1.5em;
+    }
+
+    .tick {
+        display: inline-block;
+        margin-left: 5px;
+        padding-right: 2px;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    /* About Glamapaws */
+
+    #about-glamapaws {
+        justify-content: space-between;
+    }
+
+    #about-glamapaws .heading {
+        padding: 2px 2px;
+    }
+
+    #about-glamapaws p {
+        margin: 0px 5px;
+        text-align: left;
+        padding: 5px;
+        font-size: 1.5em;
+    }
+
+    /* About Our Pups Section */
+
+    #our-pups {
+        padding-bottom: 5px;
+    }
+
+    #our-pups p {
+        margin: 0px 5px;
+        text-align: left;
+        padding: 5px;
+        font-size: 1.5em;
+    }
+
+    /* Puppy List */
+    #our-pups ul {
+        margin: 0px 10px;
+        text-align: left;
+        padding: 0px 15px;
+        list-style-type: square;
+    }
+
+    #our-pups ul li {
+        font-size: 1.5em;
+    }
+
+    #our-pups h3 {
+        font-size: 1.5em;
+    }
 
     /* Map Styles */
 
     #map {
-    height: 500px;
-}
-        
+        height: 500px;
+    }
 
     /* Retriever Page Styles */
+
     #retr-hero {
         height: 1000px;
     }
@@ -781,24 +782,24 @@ footer a {
 
     /* Doodle Page Styles */
 
-        #doodle-hero {
-            background: url("../assets/images/pexels-olya-harytovich-17075260.jpg") no-repeat scroll center center/cover;
-            width: 100%;
-            height: 900px;
-        }
-    
-        #doodle-text {
-            padding: 5px;
-            position: absolute;
-            left: 20px;
-            top: 500px;
-            width: 200px;
-        }
-    
-        #doodle-text h1 {
-            letter-spacing: 2px;
-            font-size: 2em;
-        }
+    #doodle-hero {
+        background: url("../assets/images/pexels-olya-harytovich-17075260.jpg") no-repeat scroll center center/cover;
+        width: 100%;
+        height: 900px;
+    }
+
+    #doodle-text {
+        padding: 5px;
+        position: absolute;
+        left: 20px;
+        top: 500px;
+        width: 200px;
+    }
+
+    #doodle-text h1 {
+        letter-spacing: 2px;
+        font-size: 2em;
+    }
 }
 
 /* Laptops and larger (992px and up) */
@@ -843,14 +844,72 @@ footer a {
 
     /* About Page Styles */
 
+    .heading {
+        letter-spacing: 6px;
+        padding: 0px 5px;
+        font-size: 3em;
+        text-transform: uppercase;
+    }
+
+    #about-me-list {
+        margin: 0px 5px;
+        padding: 5px;
+    }
+
+    #about-me-list li {
+        font-size: 2em;
+    }
+
+    /* About Page Flex Styles */
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: space-evenly;
+    }
+
+    #about-me {
+        justify-self: flex-start;
+    }
+
+    #jodie-container {
+        height: 100%;
+        flex-basis: 200px
+    }
+
+    .flex section {
+        flex-basis: 384px;
+        flex-grow: 2;
+    }
+
+    #certifications {
+        height: 100%;
+        align-self: flex-end;
+        flex-basis: 70px
+    }
+
+    #certifications p {
+        display: inline;
+        font-size: 1.5em;
+        text-align: justify;
+    }
+
+    .tick {
+        display: inline-block;
+        margin-left: 5px;
+        padding-right: 2px;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
     /* Retriever Page Styles */
 
-        #retr-hero {
-            background: url("../assets/images/pexels-barnabas-davoti-8842158.jpg") no-repeat scroll center center/cover;
-            width: 100%;
-            height: 1000px;
-            margin-top: 50px;
-        }
+    #retr-hero {
+        background: url("../assets/images/pexels-barnabas-davoti-8842158.jpg") no-repeat scroll center center/cover;
+        width: 100%;
+        height: 1000px;
+        margin-top: 50px;
+    }
 
     #retr-text {
         padding: 2px;
@@ -891,23 +950,23 @@ footer a {
 
     /* Doodle Page Styles */
 
-        #doodle-hero {
-            background: url("../assets/images/pexels-johann-1254140.jpg") no-repeat scroll center center/cover;
-            height: 1000px;
-            width: 100%;
-            margin-top: 25px;
-        }
-    
-        #doodle-text {
-            padding: 5px;
-            position: absolute;
-            left: 70%;
-            top: 500px;
-            width: 300px;
-        }
-    
-        #doodle-text h1 {
-            letter-spacing: 2px;
-            font-size: 3em;
-        }
+    #doodle-hero {
+        background: url("../assets/images/pexels-johann-1254140.jpg") no-repeat scroll center center/cover;
+        height: 1000px;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    #doodle-text {
+        padding: 5px;
+        position: absolute;
+        left: 70%;
+        top: 500px;
+        width: 300px;
+    }
+
+    #doodle-text h1 {
+        letter-spacing: 2px;
+        font-size: 3em;
+    }
 }
