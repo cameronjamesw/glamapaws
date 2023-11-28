@@ -457,17 +457,7 @@ h3 {
     list-style-type: square;
 }
 
-/* Retriever Flex */
 
-.retr-flex {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.retr-flex div {
-    flex-basis: 384px;
-    flex-grow: 1;
-}
 
 /* Doodle Hero Image */
 
@@ -768,6 +758,18 @@ footer a {
         letter-spacing: 2px;
         font-size: 3em;
     }
+
+    /* Retriever Flex */
+
+     .retr-flex {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .retr-flex div {
+            flex-basis: 370px;
+            flex-grow: 1;
+        }
 
     /* Dachshund Page Styles */
 
