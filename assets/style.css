@@ -175,7 +175,6 @@ header li .active {
     background: url("../assets/images/pawprints.jpeg") repeat center center/cover;
     width: 100%;
     height: fit-content;
-    box-shadow: 0px -3px 2px #cc9900;
 }
 
 /* About Me Section */
@@ -426,18 +425,18 @@ h3 {
 
 #about-retr {
     background-color: #dfcaa0;
-    border: 2px solid #ffffff;
+    border: 2px solid #fff;
     padding: 2px;
 }
 
 #about-retr div {
-    border-top: 2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    background-color: #dfcaa0;
+    border: inherit;
     width: 100%;
 }
 
 #about-retr h2 {
-    color: #ffffff;
+    color: #fff;
     text-align: center;
     letter-spacing: 2px;
     text-decoration: underline;
@@ -446,15 +445,28 @@ h3 {
 
 #about-retr h3 {
     text-align: left;
-    color: #ffffff;
+    color: #fff;
     text-transform: uppercase;
     padding: 2px 5px;
 }
 
 #about-retr ul {
-    color: #222021;
+    color: #003200;
     padding: 5px;
     margin-left: 15px;
+    list-style-type: square;
+}
+
+/* Retriever Flex */
+
+.retr-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.retr-flex div {
+    flex-basis: 384px;
+    flex-grow: 1;
 }
 
 /* Doodle Hero Image */
