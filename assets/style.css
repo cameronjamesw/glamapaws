@@ -457,8 +457,6 @@ h3 {
     list-style-type: square;
 }
 
-
-
 /* Doodle Hero Image */
 
 #doodle-hero {
@@ -771,6 +769,29 @@ footer a {
             flex-grow: 1;
         }
 
+        /* About Retriever Text */
+    
+        #about-retr h2 {
+            text-align: center;
+            letter-spacing: 4px;
+            font-size: 2em;
+        }
+    
+        #about-retr h3 {
+            padding: 2px 5px;
+            font-size: 1.5em;
+            letter-spacing: 2px;
+        }
+    
+        #about-retr ul {
+            padding: 5px;
+            margin-left: 20px;
+        }
+
+        #about-retr li {
+            font-size: 1.2rem;
+        }
+
     /* Dachshund Page Styles */
 
     #dach-hero {
@@ -938,6 +959,24 @@ footer a {
         letter-spacing: 2px;
         font-size: 4em;
     }
+
+        /* About Retriever Text */
+    
+        #about-retr h2 {
+            text-align: center;
+            letter-spacing: 4px;
+            font-size: 3rem;
+        }
+    
+        #about-retr h3 {
+            padding: 2px 5px;
+            font-size: 2rem;
+            letter-spacing: 5px;
+        }
+    
+        #about-retr li {
+            font-size: 1.5rem;
+        }
 
     /* Dachshund Page Styles */
 
