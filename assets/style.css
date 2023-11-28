@@ -916,6 +916,7 @@ footer a {
 
     #about-doodle p {
         font-size: 1.2rem;
+        padding: 0 10px;
     }
 }
 
@@ -1123,5 +1124,22 @@ footer a {
     #doodle-text h1 {
         letter-spacing: 2px;
         font-size: 3em;
+    }
+
+    /* About Doodle Text */
+
+    #about-doodle h2 {
+        letter-spacing: 4px;
+        font-size: 3rem;
+    }
+
+    #about-doodle h3 {
+        padding: 2px 5px;
+        font-size: 2rem;
+        letter-spacing: 5px;
+    }
+
+    #about-doodle li {
+        font-size: 1.5rem;
     }
 }
