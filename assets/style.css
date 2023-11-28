@@ -130,6 +130,7 @@ header li .active {
 .breeds-page {
     margin-top: 25px;
 }
+
 /* Hero image */
 
 #hero {
@@ -325,7 +326,7 @@ h3 {
 /* Dach Hero Section */
 #dach-hero {
     background: url("../assets/images/pexels-dominika-roseclay-2679612.jpg") no-repeat fixed center center/cover;
-    height: 900px; 
+    height: 900px;
     width: 100%;
     margin-top: 0px;
 }
@@ -354,6 +355,7 @@ h3 {
     background-color: #c3b1e1;
     border: 2px solid #ffffff;
 }
+
 #about-dach h2 {
     color: #ffffff;
     text-align: center;
@@ -366,6 +368,7 @@ h3 {
     text-align: justify;
     padding: 5px;
 }
+
 #about-dach div {
     border-top: 2px solid #ffffff;
     border-bottom: 2px solid #ffffff;
@@ -604,34 +607,49 @@ footer a {
         text-align: justify;
     }
 
-/* About Page Styles */
+    /* About Page Styles */
 
-/* Retriever Page Styles */
+    /* Retriever Page Styles */
     #retr-hero {
         height: 1000px;
     }
 
-   #retr-text {
-       padding: 2px;
-       position: absolute;
-       width: 400px;
-       top: 700px;
-       left: 30px;
-   }
+    #retr-text {
+        padding: 2px;
+        position: absolute;
+        width: 400px;
+        top: 700px;
+        left: 30px;
+    }
 
-   #retr-text h1 {
-       text-align: center;
-       letter-spacing: 2px;
-       font-size: 3em;
-   }
+    #retr-text h1 {
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 3em;
+    }
 
-   /* Dachshund Page Styles */
+    /* Dachshund Page Styles */
 
-   #dach-hero {
-    background: url("../assets/images/pexels-dominika-roseclay-2679612.jpg") no-repeat scroll center center/cover;
-       height: 900px;
-       width: 100%;
-   }
+    #dach-hero {
+        background: url("../assets/images/pexels-dominika-roseclay-2679612.jpg") no-repeat scroll center center/cover;
+        height: 900px;
+        width: 100%;
+    }
+
+    #dach-hero div {
+        left: 30px;
+        top: 150px;
+        position: relative;
+        width: 250px;
+        height: 100px;
+    }
+
+    #dach-hero h1 {
+        width: 100%;
+        padding: 5px;
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
 }
 
 /* Laptops and larger (992px and up) */
@@ -681,26 +699,41 @@ footer a {
 
     /* Retriever Page Styles */
 
-         #retr-text {
-             padding: 2px;
-             position: absolute;
-             width: 400px;
-             top: 350px;
-             left: 70px;
-         }
-    
-         #retr-text h1 {
-             text-align: center;
-             letter-spacing: 2px;
-             font-size: 4em;
-         }
+    #retr-text {
+        padding: 2px;
+        position: absolute;
+        width: 400px;
+        top: 350px;
+        left: 70px;
+    }
 
-         /* Dachshund Page Styles */
+    #retr-text h1 {
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 4em;
+    }
 
-                 #dach-hero {
-                     background: url("../assets/images/pexels-natalia-vieira-oliveira-14173356.jpg") no-repeat scroll center center/cover;
-                     height: 1000px;
-                     width: 100%;
-                 }
-         }
+    /* Dachshund Page Styles */
+
+    #dach-hero {
+        background: url("../assets/images/pexels-natalia-vieira-oliveira-14173356.jpg") no-repeat scroll center center/cover;
+        height: 1000px;
+        width: 100%;
+    }
+
+    #dach-hero div {
+        left: 30px;
+        top: 150px;
+        position: relative;
+        width: 400px;
+        height: 150px;
+    }
+
+    #dach-hero h1 {
+        width: 100%;
+        padding: 5px;
+        font-size: 3em;
+        letter-spacing: 2px;
+    }
+}
 }
