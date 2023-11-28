@@ -341,7 +341,7 @@ h3 {
     left: 30px;
     top: 350px;
     position: relative;
-    border: dotted 2px #cc9900;
+    border: dotted 4px #cc9900;
     width: 175px;
     height: 80px;
 }
@@ -357,8 +357,13 @@ h3 {
 /* About Dach Content */
 
 #about-dach {
-    background-color: #c3b1e1;
+    background-color: #dfcaa0;
     border: 2px solid #ffffff;
+}
+
+.dach-border {
+    border: 2px solid #fff;
+    padding: 0 10px;
 }
 
 #about-dach h2 {
@@ -372,12 +377,12 @@ h3 {
 #about-dach p {
     text-align: justify;
     padding: 5px;
+    color: #003200;
 }
 
 #about-dach div {
-    border-top: 2px solid #c90;
-    border-bottom: 2px solid #c90;
-    background-color: #c3b1e1;
+    border: 2px solid #fff;
+    background-color: #dfcaa0;
 }
 
 #about-dach h3 {
@@ -388,10 +393,10 @@ h3 {
 }
 
 #about-dach ul {
-    color: #222021;
+    color: #003200;
     padding: 5px;
     margin-left: 15px;
-
+    list-style-type: square;
 }
 
 /* Retriever Hero Image */
@@ -814,6 +819,18 @@ footer a {
         font-size: 2em;
         letter-spacing: 2px;
     }
+
+        /* Dachshund Flex */
+    
+        .dach-flex {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .dach-flex div {
+            flex-basis: 370px;
+            flex-grow: 1;
+        }
 
     /* Doodle Page Styles */
 
