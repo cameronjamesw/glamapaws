@@ -183,7 +183,10 @@ header li .active {
 #about-me {
     background-color: rgba(0, 50, 0, 0.9);
     padding-top: 5px;
-    border: 2px solid #cc9900;
+    border-top: 1px solid #cc9900;
+    border-left: 2px solid #cc9900;
+    border-right: 2px solid #cc9900;
+    border-bottom: 2px solid #cc9900;
 }
 
 .heading {
@@ -240,7 +243,10 @@ header li .active {
 
 #about-glamapaws {
     background-color: rgba(0, 50, 0, 0.9);
-    border: 2px solid #cc9900;
+    border-top: 1px solid #cc9900;
+    border-right: 2px solid #cc9900;
+    border-left: 2px solid #cc9900;
+    border-bottom: 1px solid #cc9900;
     justify-content: space-between;
 }
 
@@ -261,7 +267,10 @@ header li .active {
     color: #ffffff;
     background-color: #222021;
     padding: 5px;
-    border: 2px solid #cc9900;
+    border-top: 2px solid #cc9900;
+    border-right: 2px solid #cc9900;
+    border-left: 2px solid #cc9900;
+    border-bottom: 1px solid #cc9900;
     text-align: left;
 }
 
@@ -281,7 +290,10 @@ header li .active {
 
 #our-pups {
     background-color: rgba(0, 50, 0, 0.9);
-    border: 2px solid #c90;
+    border-top: 1px solid #c90;
+    border-left: 2px solid #cc9900;
+    border-right: 2px solid #cc9900;
+    border-bottom: 1px solid #cc9900;
     padding-bottom: 5px;
 }
 
@@ -309,7 +321,10 @@ h3 {
 /* Map Styles */
 
 #map {
-    border: 2px solid #cc9900;
+    border-top: 1px solid #cc9900;
+    border-left: 2px solid #cc9900;
+    border-right: 2px solid #cc9900;
+    border-bottom: 1px solid #cc9900;
 }
 
 /* Dachshund Page Styles */
