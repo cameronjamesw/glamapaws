@@ -536,6 +536,25 @@ h3 {
     height: 800px;
 }
 
+#contact-text {
+    background-color: rgba(0, 32, 0, 0.5);
+    border: 2px dotted #c90;
+    position: absolute;
+    left: 5%;
+    top: 500px;
+    height: 100px;
+    width: 200px;
+}
+
+#contact-text h1 {
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
 /* Footer Content Styles */
 
 footer {
