@@ -528,6 +528,14 @@ h3 {
     list-style-type: square;
 }
 
+/* Contact Us Section */
+
+#contact-hero {
+    background: url("../assets/images/pexels-dominika-roseclay-4318211.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 800px;
+}
+
 /* Footer Content Styles */
 
 footer {
