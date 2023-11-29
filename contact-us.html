@@ -55,49 +55,54 @@
 
         <section id="contact-form">
           <form action="post">
+            <h2>Contact Us</h2>
+            <br />
             <input
               type="text"
               id="first-name"
-              value="first-name"
+              value="First Name"
               required
             /><br />
 
             <input
               type="text"
               id="last-name"
-              value="last-name"
+              value="Last Name"
               required
-            /><br/>
+            /><br />
 
             <input type="email" id="email" value="Email Address" /><br />
 
             <input type="text" id="phone" value="Phone Number" required /><br />
 
-            <label for="radio-retr">Golden Retriever</label>
-            <input
-              type="radio"
-              id="radio-retr"
-              class="radio-breed"
-              name="breed"
-            />
+            <div id="radio-div" class="radio-flex">
+              <label for="radio-retr" class="radio-label">Retriever</label>
+              <input
+                type="radio"
+                id="radio-retr"
+                class="radio-breed"
+                name="breed"
+              />
 
-            <label for="radio-dach">Dachshund</label>
-            <input
-              type="radio"
-              id="radio-dach"
-              class="radio-breed"
-              name="breed"
-            />
+              <label for="radio-dach" class="radio-label">Dachshund</label>
+              <input
+                type="radio"
+                id="radio-dach"
+                class="radio-breed"
+                name="breed"
+              />
 
-            <label for="radio-doodle">Golden Doodle</label>
-            <input
-              type="radio"
-              id="radio-doodle"
-              class="radio-breed"
-              name="breed"
-            />
+              <label for="radio-doodle" class="raadio-label">Doodle</label>
+              <input
+                type="radio"
+                id="radio-doodle"
+                class="radio-breed"
+                name="breed"
+              />
+            </div>
+            <br /><br />
 
-            <input type="submit" />
+            <input type="submit" id="submit" />
           </form>
         </section>
       </section>

@@ -531,7 +531,7 @@ h3 {
 #contact-hero {
     background: url("../assets/images/pexels-dominika-roseclay-4318211.jpg") no-repeat fixed center center/cover;
     width: 100%;
-    height: 1200px;
+    height: 1400px;
 }
 
 #contact-text {
@@ -561,27 +561,61 @@ h3 {
 /* Contact Us Form */
 
 #contact-form {
-    background-color: rgba(0, 32, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     border: dotted 2px #c90;
-    height: 400px;
+    height: fit-content;
     width: 350px;
     position: absolute;
     top: 800px;
     margin: 5px;
     justify-self: center;
     align-self: center;
-    padding: 10px
+    padding: 10px;
+    font-family: "red hat display", "sans-serif";
+}
+
+#contact-form {
+    height: fit-content;
+}
+
+#contact-form h2 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #contact-form input {
     background-color: transparent;
     border: 1px dotted #c90;
     width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
-    display: in-line;
+    display: block;
     color: #fff;
-    height: 15px;
+    padding: 10px;
+}
+
+#contacf-form #radio-div {
+    height: 10px;
+}
+
+#contact-form #radio-div {
+    border: 2px dotted #c90;
+    padding: 5px;
+    font-size: smaller;
+    width: 100%;
+}
+
+.radio-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-form label {
+    color: #fff;
+    display: inline;
+}
+
+#contact-form #submit {
+    background-color: rgba(0, 32, 0, 0.9);
 }
 
 /* Footer Content Styles */
