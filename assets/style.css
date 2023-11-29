@@ -570,6 +570,18 @@ h3 {
     margin: 5px;
     justify-self: center;
     align-self: center;
+    padding: 10px
+}
+
+#contact-form input {
+    background-color: transparent;
+    border: 1px dotted #c90;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: in-line;
+    color: #fff;
+    height: 15px;
 }
 
 /* Footer Content Styles */
