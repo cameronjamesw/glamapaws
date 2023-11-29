@@ -1016,6 +1016,31 @@ footer a {
         font-size: 1.2rem;
         padding: 0 10px;
     }
+
+    /* Contact Us Page */
+    /* Conact Us Hero */
+
+    #contact-text {
+
+        position: absolute;
+        left: 5%;
+        top: 500px;
+        height: fit-content;
+        width: 300px;
+    }
+
+    #contact-text h1 {
+        padding: 5px;
+        font-size: 3em;
+        letter-spacing: 4px;
+    }
+
+    /* Contact Us Form */
+
+    #contact-form {
+        margin-left: 100px;
+        max-width: 450px;
+    }
 }
 
 /* Laptops and larger (992px and up) */
