@@ -48,47 +48,58 @@
 
     <main>
       <!-- This is the main body of content -->
-      <section id="contact-hero">
+      <section id="contact-hero" class="contact-flex">
         <div id="contact-text"><h1>Find Out More</h1></div>
-      </section>
-      <section id="contact-form">
-        <form action="post">
-          <input
-            type="text"
-            id="first-name"
-            value="first-name"
-            required
-          /><br />
-          <input type="text" id="last-name" value="last-name" required /><br />
-          <input type="email" id="email" value="Email Address" /><br />
-          <input type="text" id="phone" value="Phone Number" required /><br />
 
-          <label for="radio-retr">Golden Retriever</label>
-          <input
-            type="radio"
-            id="radio-retr"
-            class="radio-breed"
-            name="breed"
-          />
+        <!-- This is the Contact Form -->
 
-          <label for="radio-dach">Dachshund</label>
-          <input
-            type="radio"
-            id="radio-dach"
-            class="radio-breed"
-            name="breed"
-          />
+        <section id="contact-form">
+          <form action="post">
+            <input
+              type="text"
+              id="first-name"
+              value="first-name"
+              required
+            /><br />
 
-          <label for="radio-doodle">Golden Doodle</label>
-          <input
-            type="radio"
-            id="radio-doodle"
-            class="radio-breed"
-            name="breed"
-          />
+            <input
+              type="text"
+              id="last-name"
+              value="last-name"
+              required
+            /><br />
 
-          <input type="submit" />
-        </form>
+            <input type="email" id="email" value="Email Address" /><br />
+
+            <input type="text" id="phone" value="Phone Number" required /><br />
+
+            <label for="radio-retr">Golden Retriever</label>
+            <input
+              type="radio"
+              id="radio-retr"
+              class="radio-breed"
+              name="breed"
+            />
+
+            <label for="radio-dach">Dachshund</label>
+            <input
+              type="radio"
+              id="radio-dach"
+              class="radio-breed"
+              name="breed"
+            />
+
+            <label for="radio-doodle">Golden Doodle</label>
+            <input
+              type="radio"
+              id="radio-doodle"
+              class="radio-breed"
+              name="breed"
+            />
+
+            <input type="submit" />
+          </form>
+        </section>
       </section>
     </main>
 
