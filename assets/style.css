@@ -732,6 +732,11 @@ footer a:hover {
         left: 15%;
     }
 
+    #down-arrow {
+        margin-bottom: 150px;
+        font-size: 6em;
+    }
+
     #hero-text p {
         font-size: larger;
         text-align: justify;
@@ -1098,6 +1103,16 @@ footer a:hover {
         text-align: justify;
         font-weight: 800;
         letter-spacing: 5px;
+    }
+
+    #down-arrow {
+        margin-bottom: 300px;
+        font-size: 6em;
+        z-index: 96;
+    }
+
+    #down-arrow:hover {
+        color: #323232;
     }
 
     /* About Page Styles */
