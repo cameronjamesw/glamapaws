@@ -1280,17 +1280,11 @@ footer a {
     }
 
     #contact-form input {
-        background-color: transparent;
-        border: 1px dotted #c90;
-        width: 100%;
-        display: block;
-        color: #fff;
-        padding: 10px;
         font-size: 1.5em;
     }
 
     #contact-form input:hover {
-        border: 2px dotted #fff;
+        border: 1px dotted #fff;
     }
 
     #contact-form label:hover {
@@ -1299,7 +1293,7 @@ footer a {
 
     #contact-form #submit:hover {
         background-color: #000;
-        border: 2px dotted #c90;
+        border: 1px dotted #c90;
     }
 
     #contacf-form #radio-div {
