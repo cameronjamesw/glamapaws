@@ -1165,6 +1165,7 @@ footer a:hover {
         display: inline;
         font-size: 1.5em;
         text-align: justify;
+        vertical-align: middle;
     }
 
     .tick {
