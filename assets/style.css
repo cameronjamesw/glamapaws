@@ -414,10 +414,14 @@ h3 {
 }
 
 #about-dach ul {
-    color: #003200;
+    color: #c90;
     padding: 5px;
     margin-left: 15px;
     list-style-type: square;
+}
+
+.dach-span {
+    color: #003200;
 }
 
 /* Retriever Hero Image */
@@ -476,10 +480,20 @@ h3 {
 }
 
 #about-retr ul {
-    color: #003200;
+    color: #c90;
     padding: 5px;
     margin-left: 15px;
     list-style-type: square;
+}
+
+.retr-span {
+    color: #003200
+}
+
+#about-retr p {
+    text-align: justify;
+    padding: 5px;
+    color: #003200;
 }
 
 /* Doodle Hero Image */
