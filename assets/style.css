@@ -272,6 +272,14 @@ header li .active {
     padding: 5px;
 }
 
+#fit-to-breed {
+    color: #c90;
+}
+
+#fit-to-breed:hover {
+    color: #d3d3d3;
+}
+
 /* Certifications Section */
 
 #certifications {
