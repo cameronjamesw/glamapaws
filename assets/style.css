@@ -101,7 +101,7 @@ header li .active {
     position: absolute;
     background-color: #003200;
     width: 100%;
-    box-shadow: 0 2px 2px #ffffff;
+    box-shadow: 0 2px 2px #c90;
     top: 100%;
 }
 
