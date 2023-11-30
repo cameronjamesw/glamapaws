@@ -542,10 +542,14 @@ h3 {
 }
 
 #about-doodle ul {
-    color: #003200;
+    color: #c90;
     padding: 5px;
     margin-left: 15px;
     list-style-type: square;
+}
+
+.doodle-span {
+    color: #003200;
 }
 
 /* Contact Us Section */
