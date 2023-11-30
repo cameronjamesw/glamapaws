@@ -642,6 +642,10 @@ footer a {
     font-size: x-large;
 }
 
+footer a:hover {
+    color: #c90;
+}
+
 /* Footer Icons */
 #footer-icons-div {
     display: inline-flex;
