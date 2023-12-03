@@ -424,6 +424,10 @@ h3 {
     color: #003200;
 }
 
+li .dach-health {
+    list-style-type: disc;
+}
+
 /* Retriever Hero Image */
 
 #retr-hero {
@@ -945,6 +949,10 @@ footer a:hover {
         font-size: 1.2rem;
     }
 
+    #about-retr p {
+        font-size: 1.2rem;
+    }
+
     /* Dachshund Page Styles */
 
     #dach-hero {
@@ -1242,6 +1250,11 @@ footer a:hover {
         font-size: 1.5rem;
     }
 
+
+    #about-retr p {
+        font-size: 1.5rem;
+    }
+
     /* Dachshund Page Styles */
 
     #dach-hero {
@@ -1322,6 +1335,10 @@ footer a:hover {
     }
 
     #about-doodle li {
+        font-size: 1.5rem;
+    }
+
+    #about-doodle p {
         font-size: 1.5rem;
     }
 
