@@ -133,7 +133,7 @@ header li .active {
 /* Hero image */
 
 #hero {
-    background: url("../assets/images/0f5d1668-3ab9-4444-8e21-6c096b2ae0d0.JPG") scroll no-repeat bottom center/cover;
+    background: url("../images/jodie-doodle-1.JPG") scroll no-repeat bottom center/cover;
     width: 100vw;
     height: 80vh;
 }
@@ -243,7 +243,7 @@ header li .active {
 }
 
 #jodie-photo {
-    background: url("../assets/images/IMG_0532.PNG") no-repeat center center/cover;
+    background: url("../images/jodie-retriever.PNG") no-repeat center center/cover;
     width: 100vw;
     height: 40vh;
     align-self: center;
@@ -351,7 +351,7 @@ h3 {
 
 /* Dach Hero Section */
 #dach-hero {
-    background: url("../assets/images/pexels-dominika-roseclay-2679612.jpg") no-repeat scroll center center/cover;
+    background: url("../images/dachshund-1.jpg") no-repeat scroll center center/cover;
     height: 900px;
     width: 100%;
     margin-top: 0px;
@@ -431,7 +431,7 @@ li .dach-health {
 /* Retriever Hero Image */
 
 #retr-hero {
-    background: url("../assets/images/pexels-mithul-varshan-2408649.jpg") no-repeat scroll center center/cover;
+    background: url("../images/golden-retriever-1.jpg") no-repeat scroll center center/cover;
     width: 100%;
     height: 800px;
     margin-top: 50px;
@@ -503,7 +503,7 @@ li .dach-health {
 /* Doodle Hero Image */
 
 #doodle-hero {
-    background: url("../assets/images/pexels-jayden-burdick-3397939.jpg") no-repeat scroll center center/cover;
+    background: url("../images/golden-doodle-2.jpg") no-repeat scroll center center/cover;
     width: 100%;
     height: 800px;
 }
@@ -573,7 +573,7 @@ li .dach-health {
 /* Contact Us Section */
 
 #contact-hero {
-    background: url("../assets/images/pexels-dominika-roseclay-4318211.jpg") no-repeat scroll center center/cover;
+    background: url("../images/dachshund-3.jpg") no-repeat scroll center center/cover;
     width: 100%;
     height: 800px;
 }
@@ -750,7 +750,7 @@ footer a:hover {
     /* Hero Text Styles */
 
     #hero {
-        background: url("../assets/images/e0c1f663-d7b7-4eaf-b70a-4fe38a06787e.JPG") local no-repeat center center/cover;
+        background: url("../images/jodie-doodle-2.JPG") local no-repeat center center/cover;
         width: 100vw;
         height: 100vh;
     }
@@ -802,7 +802,6 @@ footer a:hover {
     }
 
     #jodie-photo {
-        background: url("../assets/images/IMG_0532.PNG") no-repeat center center/cover;
         width: 100%;
         height: 100%;
         align-self: flex-start;
@@ -956,7 +955,7 @@ footer a:hover {
     /* Dachshund Page Styles */
 
     #dach-hero {
-        background: url("../assets/images/pexels-dominika-roseclay-2679612.jpg") no-repeat scroll center center/cover;
+        background: url("../images/dachshund-2.jpg") no-repeat scroll center center/cover;
         height: 900px;
         width: 100%;
     }
@@ -1017,7 +1016,7 @@ footer a:hover {
     /* Doodle Page Styles */
 
     #doodle-hero {
-        background: url("../assets/images/pexels-olya-harytovich-17075260.jpg") no-repeat scroll center center/cover;
+        background: url("../images/golden-doodle-1.jpg") no-repeat scroll center center/cover;
         width: 100%;
         height: 900px;
     }
@@ -1119,7 +1118,7 @@ footer a:hover {
     }
 
     #hero {
-        background: url("../assets/images/e0c1f663-d7b7-4eaf-b70a-4fe38a06787e.JPG") local no-repeat center center/cover;
+        background: url("../images/jodie-doodle-2.JPG") local no-repeat center center/cover;
         width: 100vw;
         height: 120vh;
     }
@@ -1213,7 +1212,7 @@ footer a:hover {
     /* Retriever Page Styles */
 
     #retr-hero {
-        background: url("../assets/images/pexels-barnabas-davoti-8842158.jpg") no-repeat scroll center center/cover;
+        background: url("../images/golden-retriever-2.jpg") no-repeat scroll center center/cover;
         width: 100%;
         height: 1000px;
         margin-top: 50px;
@@ -1258,7 +1257,7 @@ footer a:hover {
     /* Dachshund Page Styles */
 
     #dach-hero {
-        background: url("../assets/images/pexels-natalia-vieira-oliveira-14173356.jpg") no-repeat scroll center center/cover;
+        background: url("../images/dachshund-2.jpg") no-repeat scroll center center/cover;
         height: 1000px;
         width: 100%;
     }
@@ -1302,7 +1301,7 @@ footer a:hover {
     /* Doodle Page Styles */
 
     #doodle-hero {
-        background: url("../assets/images/pexels-johann-1254140.jpg") no-repeat scroll center center/cover;
+        background: url("../images/golden-doodle-3.jpg") no-repeat scroll center center/cover;
         height: 1000px;
         width: 100%;
         margin-top: 25px;
