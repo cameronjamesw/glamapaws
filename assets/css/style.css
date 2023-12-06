@@ -783,7 +783,7 @@ footer a:hover {
 
     #about-me-list {
         margin: 0px 5px;
-        padding: 5px;
+        padding: 15px;
     }
 
     #about-me-list li {
@@ -854,7 +854,7 @@ footer a:hover {
     #about-glamapaws p {
         margin: 0px 5px;
         text-align: left;
-        padding: 5px;
+        padding: 15px;
         font-size: 1.5em;
     }
 
@@ -864,10 +864,14 @@ footer a:hover {
         padding-bottom: 5px;
     }
 
+    #our-pups h1 {
+        letter-spacing: 5px;
+    }
+
     #our-pups p {
         margin: 0px 5px;
         text-align: left;
-        padding: 5px;
+        padding: 15px;
         font-size: 1.5em;
     }
 
@@ -875,7 +879,7 @@ footer a:hover {
     #our-pups ul {
         margin: 0px 10px;
         text-align: left;
-        padding: 0px 15px;
+        padding: 0px 25px;
         list-style-type: square;
     }
 
@@ -1159,7 +1163,7 @@ footer a:hover {
 
     #about-me-list {
         margin: 0px 5px;
-        padding: 5px;
+        padding: 15px;
     }
 
     #about-me-list li {
@@ -1246,12 +1250,12 @@ footer a:hover {
     }
 
     #about-retr li {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
 
     #about-retr p {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     /* Dachshund Page Styles */
