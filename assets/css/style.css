@@ -324,6 +324,15 @@ header li .active {
 }
 
 /* Puppy List */
+
+#puppy-heading {
+    margin-left: 15px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
 #our-pups ul {
     color: #c90;
     margin: 0px 5px;
