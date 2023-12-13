@@ -20,6 +20,3 @@ In this section the current features of the Glamapaws website shall be outlined.
 
     - The header can be found fixed at the top of all the Glamapaws pages. There are links to Home, Our Breeds and Contact Us allowing for flexible and easy navigation.
     - The Glamapaws logo is also featured within the header and this is allows for another method of navigating to the home page.
-
-
-
