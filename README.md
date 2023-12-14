@@ -154,3 +154,31 @@ The sight was deployed to GitHub pages. The steps to deploy are as follows:
   - Once the master branch has been selected the page will be automatically refreshed with a detailed ribbon display to incidate a successful deployment
 
 The live link can be found here - [https://cameronjamesw.github.io/glamapaws/](https://cameronjamesw.github.io/glamapaws/)
+
+# Credits
+
+## Content
+
+- The text for the home page was taken from Jodie Thomas of Glamapaws
+
+- The code for the drop-down menu for smaller devices was taken from Code Institute's Love Running Project, located [here](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/)
+
+- The icons within the footer, the burger icon and the ticks for certifications were taken from [Font Awesome](https://fontawesome.com/)
+
+- Dog YouTube videos for content.
+
+## Media
+
+Favicon
+
+Pexels
+
+Jodie's Photos
+
+## Honourable Metions
+
+- Although I did not take any code or ideas, I refered to [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified) more often than not when I was struggling to understand concepts and I needed some visual aid.
+
+- Special thanks to my good friend Tristan Orton for altering the Glamapaws logo text from a pastal pink to `#CC9900` in order to fit the website aesthetic.
+
+- Jubril my mentor
