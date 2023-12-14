@@ -165,20 +165,22 @@ The live link can be found here - [https://cameronjamesw.github.io/glamapaws/](h
 
 - The icons within the footer, the burger icon and the ticks for certifications were taken from [Font Awesome](https://fontawesome.com/)
 
-- Dog YouTube videos for content.
+- The dog breeds information featured were adaptations of information taken from the [Smart Dog Lover](https://www.youtube.com/@smartdoglover4295) Youtube channel.
 
 ## Media
 
-Favicon
+- The Favicon was taken from [clker.com](https://www.clker.com/clipart-gold-paw-print-4.html)
 
-Pexels
+- The paw prints background was taken from [pxfuel.com](https://e0.pxfuel.com/wallpapers/492/717/desktop-wallpaper-iphone-and-android-pink-paw-print-pink-dog.jpg)
 
-Jodie's Photos
+- The home page images and the Glamapaws logo were provided by Jodie Thomas and were taken herself, property of Glamapaws
+
+- All other images featured throughout the webpage were taken from [pexels](https://www.pexels.com/)
 
 ## Honourable Metions
 
+- I would like to say thanks to my mentor Jubril Akolade for helping me throughout the project and giving extremely valuable advise at all times.
+  
 - Although I did not take any code or ideas, I refered to [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified) more often than not when I was struggling to understand concepts and I needed some visual aid.
 
-- Special thanks to my good friend Tristan Orton for altering the Glamapaws logo text from a pastal pink to `#CC9900` in order to fit the website aesthetic.
-
-- Jubril my mentor
+- Special thanks to my good friend Tristan Orton for altering the Glamapaws logo text from a pastal pink to `#CC9900` in order to fit the website's aesthetic.
