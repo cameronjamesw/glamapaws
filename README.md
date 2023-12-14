@@ -50,38 +50,38 @@ In this section the current features of the Glamapaws website shall be outlined.
 - **About Our Pups**
 
   - The About Our Pups section of the website contains more information regarding the puppies that Jodie breeds. This gives the user further information about the condition and rearing of the puppies from birth.
-  - Further down, a 'puppy list' is provided which gives the user a clear and transparent expectation of what they can expect when collecting their new puppy for the first time. The list provided is designed to ease stresses surrounded what can be an anxious experience for a lot of people.
+  - Further down, a 'puppy list' is provided which gives the user a clear and transparent expectation of what they can expect when collecting their new puppy for the first time. The list provided is designed to ease stresses surrounding what can be an anxious experience for a lot of people.
 
 ![Screenshot of the About Our Pups section of the website. Information about the puppies along with a list of what to expect can be found.](assets/images/our-pups-screenshot.png)
 
 - **Map**
 
-  - A map has benn included just about the footer of the page in order for the user to see where Glamapaws are based in relation to their location.
+  - A map has been included just above the footer of the page in order for the user to see where Glamapaws are based in relation to their location.
   - For privacy purposes the map location is the local area of where Jodie is based, not an exact address.
 
 ![A map of the Llannon area to show where Glamapaws are based.](assets/images/map-screenshot.png)
 
 - **Footer**
 
-  - The footer is located at the very bottom of each page. It includes links to all the ways users can contact Glamapaws, these include through Instagram, through email and through phone.
+  - The footer is located at the very bottom of each page. It includes links to all the ways users can contact Glamapaws, these include through Instagram, through email and through phonecall.
   - The footer provides a direct link to Jodie for the user - in particular the mobile phone icon which allows the user to call Glamapaws within moments of clicking the button.
 
 ![A screenshot of the footer from the website, within the footer 3 icons of instagram, email and mobile phone can be found as methods of contacting Glamapaws.](assets/images/footer-screenshot.png)
 
 - **Breed Header**
 
-  - When navigating within the Breeds pages of the website, the user will notice the header's height has been increased to encorporate the 3 breeds for flexible navigation.
-  - This allows the user to easily navigate across the 3 breeds without having to back-track to any previous pages.
+  - When navigating within the breeds pages of the website, the user will notice the header's height has been increased to encorporate the 3 breed-headings for flexible navigation.
+  - This allows the user to easily navigate across the 3 breeds pages without having to back-track to any previous pages.
 
 ![Screenshot of the Breeds page header, the header is extended to encorporate the 3 breeds that Glamapaws is concerned with.](assets/images/breeds-header-screenshot.png)
 
 - **Breeds Information**
 
-  - Within the 3 breeds pages, the user can find information about the breed inqquestion. This is split into 4 different sub-categories of Personality, Health, Exercise and Maintenence.
+  - Within the 3 breeds pages, the user can find information about the breed in question. This is split into 4 different sub-categories of Personality, Health, Exercise and Maintenance.
   - The aim of this is to answer FAQs that the user may have when viewing, and also give the user an idea of what to expect if purchasing one of the dogs.
   - The sub-categories are structured with flex-box in order to give a compact yet neat look when viewing on different devices.
 
-![Screenshot of the breeds information. The breeds information is categorised into Health, Personality, Exercise and Maintenence.](assets/images/breeds-info-screenshot.png)
+![Screenshot of the breeds information. The breeds information is categorised into Health, Personality, Exercise and Maintenance.](assets/images/breeds-info-screenshot.png)
 
 - **Contact Us**
 
@@ -99,13 +99,13 @@ In this section the current features of the Glamapaws website shall be outlined.
       - `#ffffff` - a solid white provides and excellent contrast amongst the royal green background
       - `#dfcaa0` - a smooth cream color used for the background of the breeds information pages
 
-  - Initially the color pallet was very different to the one here, it started off with pastal pink and blue; however after much consideration with Jodie, we both thought it was best to change to the pallet above. The colors here offer a very royal aesthetic as well as offering an excellent contrast for accessiblity - furthermore the royalty colors involved suit the brand name of 'Glamapaws'.
+  - The colors here offer a very royal aesthetic as well as offering an excellent contrast for accessiblity - furthermore the royalty of the colors involved suit the brand name of 'Glamapaws'.
 
 - **Font Style**
 
   - Both font styles used were taken from Google Fonts
     - The first is Red Hat Display - which was used for headings and other large font-styles. The weight of the font was easy to read and it natrually brought a lot of attention to itself.
-    - The second font style is Quicksand - and this was used for paragraph, lists and other standard sized text elements. The font was very soft and smooth, easy to read. With this font style being a sans-serif it is easily compatitlbe with a majority of browsers.
+    - The second font style is Quicksand - and this was used for paragraphs, lists and other standard sized text elements. The font is very soft and smooth, easy to read. With this font style being a sans-serif it is easily compatible with a majority of browsers.
 
 ### Future Features
 
@@ -146,7 +146,7 @@ When viewing the dach.html and doodle.html pages on iOS devices, the hero images
 
 ### Stretched Radio Buttons 
 
-When viewing the Contact Us page on an iOS device with a screen width smaller than 768px the Radio input stretches greater than the screen width. Flex-box has been used in order to wrap the radio buttons, so it is assumed that this is potentially causing the issue.
+When viewing the Contact Us page on an iOS device with a screen width smaller than 768px the radio input stretches greater than the screen width. Flex-box has been used in order to wrap the radio buttons, so it is assumed that this is potentially causing the issue.
 
 When viewing the live sight on an Andrid device (Samsumng A14) there is no issue with the display of the radio buttons.
 
