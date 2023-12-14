@@ -94,7 +94,7 @@ In this section the current features of the Glamapaws website shall be outlined.
 - **Aesthetic**
 
     - The main colors used throughout the website are as follows:
-      - `#CC9900` - a lovely royal gold
+      - `#cc9900` - a lovely royal gold
       - `#003200` - a rich royal green used for the background colors
       - `#ffffff` - a solid white provides and excellent contrast amongst the royal green background
       - `#dfcaa0` - a smooth cream color used for the background of the breeds information pages
@@ -114,7 +114,7 @@ In this section the current features of the Glamapaws website shall be outlined.
   - After speaking with Jodie since the final deployment of the website, I am looking to implement a reviews section either within the home page, or seperately within a 'reviews' page. A review section would pose further transparency to future users through sharing past clients' experiences.
 
 - **Breeds Expansion**
- - Further detail within each of the breeds pages is neccessary. The information is very basic right now, so links to extennal sources such a official breed pages and YouTube videos would be beneficial to the user.
+   - Further detail within each of the breeds pages is neccessary. The information is very basic right now, so links to extennal sources such a official breed pages and YouTube videos would be beneficial to the user.
 
 # Testing 
 
