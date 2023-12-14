@@ -99,3 +99,35 @@ In this section the current features of the Glamapaws website shall be outlined.
 
 - **Breeds Expansion**
  - Further detail within each of the breeds pages is neccessary. The information is very basic right now, so links to extennal sources such a official breed pages and YouTube videos would be beneficial to the user.
+
+## Testing 
+
+### Fixed Bugs
+
+  - Testing the Glamapaws website has been an interesting process as the majority of bugs and issues have arrisen when testing the website on iOS devices.
+
+- __Enlarged Images__
+
+    - When viewing the dach.html and doodle.html pages on iOS devices, the hero images of the pages in question appeared enlarged, thus contrasting the preview. (see below)
+    - 
+- __iOS View__
+![Screenshot of the enlarged image bug where the hero image was too big for the screen.](assets/images/enlarged-dach.PNG)
+  - The image above portrays the view of the dach.html on an iOS iPhone 14 Pro Max, notice how the image is unrecognisable due to how stretched it is. The image was viewed within Safari, Firefox and Google Chrome with cleared cache.
+
+- __DevTools Preview__
+![Screenshot of the same image listed aboe but through the view of Google Chrome DevTools](assets/images/devtools-dach.png)
+  - This is the same deployed page with the same screen width through the view of Google Chrome DevTools, notice how the apsect ratio of the image perfectly fits the page size.
+
+- __Android Devices__
+  
+  - It was interesting to note that when the live sight was viewed on Android devices (Samsung A14 and Google Pixel 7a) the bug was not a problem, thus confirming that it was a bug with iOS.
+
+- __Resolution__
+
+  - After a few days of troubleshooting through Slack and Google, I reached out to a tutor who helped me work around the issue. The issue lay in the attribute of the hero image, the background image had an attribute of 'fixed' as I wanted the text to scroll up from the bottom, on top of the image. I reached the conclusion that this was causing the issue as changing the attribute to 'fixed' resolved how the image appeared.  
+
+### Validator Testing 
+
+    - Glamapaws has been tested with the official [W3C Validator](https://validator.w3.org/) and no errors were returned.
+  
+    - Glamapaws has been tested with the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) and no errors were returned.
