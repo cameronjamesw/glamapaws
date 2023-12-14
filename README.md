@@ -91,6 +91,22 @@ In this section the current features of the Glamapaws website shall be outlined.
 
 ![Screenshot of the contact us form where users can enter their details to start an enquiry to Glamapaws.](assets/images/contact-us-screenshot.png)
 
+- **Aesthetic**
+
+    - The main colors used throughout the website are as follows:
+      - `#CC9900` - a lovely royal gold
+      - `#003200` - a rich royal green used for the background colors
+      - `#ffffff` - a solid white provides and excellent contrast amongst the royal green background
+      - `#dfcaa0` - a smooth cream color used for the background of the breeds information pages
+
+- Initially the color pallet was very different to the one here, it started off with pastal pink and blue; however after much consideration with Jodie, we both thought it was best to change to the pallet above. The colors here offer a very royal aesthetic as well as offering an excellent contrast for accessiblity - furthermore the royalty colors involved suit the brand name of 'Glamapaws'.
+
+- **Font Style**
+
+- Both font styles used were taken from Google Fonts
+  - The first is Red Hat Display - which was used for headings and other large font-styles. The weight of the font was easy to read and it natrually brought a lot of attention to itself.
+  - The second font style is Quicksand - and this was used for paragraph, lists and other standard sized text elements. The font was very soft and smooth, easy to read. With this font style being a sans-serif it is easily compatitlbe with a majority of browsers.
+
 ### Future Features
 
 - **Reviews**
@@ -166,6 +182,8 @@ The live link can be found here - [https://cameronjamesw.github.io/glamapaws/](h
 - The icons within the footer, the burger icon and the ticks for certifications were taken from [Font Awesome](https://fontawesome.com/)
 
 - The dog breeds information featured were adaptations of information taken from the [Smart Dog Lover](https://www.youtube.com/@smartdoglover4295) Youtube channel.
+
+- The font styles 'Red Hat Display' and 'Quicksand' were both taken from [Google Fonts](https://fonts.google.com/)
 
 ## Media
 
