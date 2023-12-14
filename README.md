@@ -100,7 +100,7 @@ In this section the current features of the Glamapaws website shall be outlined.
 - **Breeds Expansion**
  - Further detail within each of the breeds pages is neccessary. The information is very basic right now, so links to extennal sources such a official breed pages and YouTube videos would be beneficial to the user.
 
-## Testing 
+# Testing 
 
 ## Fixed Bugs
 
@@ -126,7 +126,7 @@ When viewing the dach.html and doodle.html pages on iOS devices, the hero images
 
   - After a few days of troubleshooting through Slack and Google, I contacted a tutor who helped me work around the issue. The issue lay in the attribute of the background image, the background image had an attribute of 'fixed' as I wanted the text to scroll up from the bottom, on top of the image. We reached the conclusion that this was causing the issue as changing the attribute to 'fixed' resolved how the image appeared.
 
-## Know Bugs
+## Unfixed Bugs
 
 ### Stretched Radio Buttons 
 
@@ -145,3 +145,12 @@ I'm sure there is a way of fixing this, or altering the anchor point however I w
  Glamapaws has been tested with the official [W3C Validator](https://validator.w3.org/) and no errors were returned.
   
  Glamapaws has been tested with the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) and no errors were returned.
+
+# Deployment
+
+The sight was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository navigate to the Settings tab
+  - From the source section drop-down menu, select the Master branch
+  - Once the master branch has been selected the page will be automatically refreshed with a detailed ribbon display to incidate a successful deployment
+
+The live link can be found here - [https://cameronjamesw.github.io/glamapaws/](https://cameronjamesw.github.io/glamapaws/)
