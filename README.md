@@ -102,14 +102,14 @@ In this section the current features of the Glamapaws website shall be outlined.
 
 ## Testing 
 
-### Fixed Bugs
+## Fixed Bugs
 
   - Testing the Glamapaws website has been an interesting process as the majority of bugs and issues have arrisen when testing the website on iOS devices.
 
-- __Enlarged Images__
+### Enlarged Image
 
-    - When viewing the dach.html and doodle.html pages on iOS devices, the hero images of the pages in question appeared enlarged, thus contrasting the preview. (see below)
-    - 
+When viewing the dach.html and doodle.html pages on iOS devices, the hero images of the pages in question appeared enlarged, thus contrasting the preview. (see below)
+  
 - __iOS View__
 ![Screenshot of the enlarged image bug where the hero image was too big for the screen.](assets/images/enlarged-dach.PNG)
   - The image above portrays the view of the dach.html on an iOS iPhone 14 Pro Max, notice how the image is unrecognisable due to how stretched it is. The image was viewed within Safari, Firefox and Google Chrome with cleared cache.
@@ -124,10 +124,24 @@ In this section the current features of the Glamapaws website shall be outlined.
 
 - __Resolution__
 
-  - After a few days of troubleshooting through Slack and Google, I reached out to a tutor who helped me work around the issue. The issue lay in the attribute of the hero image, the background image had an attribute of 'fixed' as I wanted the text to scroll up from the bottom, on top of the image. I reached the conclusion that this was causing the issue as changing the attribute to 'fixed' resolved how the image appeared.  
+  - After a few days of troubleshooting through Slack and Google, I contacted a tutor who helped me work around the issue. The issue lay in the attribute of the background image, the background image had an attribute of 'fixed' as I wanted the text to scroll up from the bottom, on top of the image. We reached the conclusion that this was causing the issue as changing the attribute to 'fixed' resolved how the image appeared.
+
+## Know Bugs
+
+### Stretched Radio Buttons 
+
+When viewing the Contact Us page on an iOS device with a screen width smaller than 768px the Radio input stretches greater than the screen width. Flex-box has been used in order to wrap the radio buttons, so it is assumed that this is potentially causing the issue.
+
+When viewing the live sight on an Andrid device (Samsumng A14) there is no issue with the display of the radio buttons.
+
+### Down-Arrow Bug
+
+The down-arrow that is found on the index.html page has a slight bug that I want to draw attention to. When clicking the button the user is taken to the About Me section of the website however the view height lands just below the About Me heading, something I am not happy with. The reason for this is because the header has the 'fixed' attribute, taking it out of the semantic flow of elements, therefore the browser does not register to position the anchor just below the bottom of the header.
+
+I'm sure there is a way of fixing this, or altering the anchor point however I was short of time by the end of the project and I didn't see this as a big enough issue to rectify prior to submission.
 
 ### Validator Testing 
 
-    - Glamapaws has been tested with the official [W3C Validator](https://validator.w3.org/) and no errors were returned.
+ Glamapaws has been tested with the official [W3C Validator](https://validator.w3.org/) and no errors were returned.
   
-    - Glamapaws has been tested with the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) and no errors were returned.
+ Glamapaws has been tested with the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) and no errors were returned.
