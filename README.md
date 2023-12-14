@@ -99,13 +99,13 @@ In this section the current features of the Glamapaws website shall be outlined.
       - `#ffffff` - a solid white provides and excellent contrast amongst the royal green background
       - `#dfcaa0` - a smooth cream color used for the background of the breeds information pages
 
-- Initially the color pallet was very different to the one here, it started off with pastal pink and blue; however after much consideration with Jodie, we both thought it was best to change to the pallet above. The colors here offer a very royal aesthetic as well as offering an excellent contrast for accessiblity - furthermore the royalty colors involved suit the brand name of 'Glamapaws'.
+  - Initially the color pallet was very different to the one here, it started off with pastal pink and blue; however after much consideration with Jodie, we both thought it was best to change to the pallet above. The colors here offer a very royal aesthetic as well as offering an excellent contrast for accessiblity - furthermore the royalty colors involved suit the brand name of 'Glamapaws'.
 
 - **Font Style**
 
-- Both font styles used were taken from Google Fonts
-  - The first is Red Hat Display - which was used for headings and other large font-styles. The weight of the font was easy to read and it natrually brought a lot of attention to itself.
-  - The second font style is Quicksand - and this was used for paragraph, lists and other standard sized text elements. The font was very soft and smooth, easy to read. With this font style being a sans-serif it is easily compatitlbe with a majority of browsers.
+  - Both font styles used were taken from Google Fonts
+    - The first is Red Hat Display - which was used for headings and other large font-styles. The weight of the font was easy to read and it natrually brought a lot of attention to itself.
+    - The second font style is Quicksand - and this was used for paragraph, lists and other standard sized text elements. The font was very soft and smooth, easy to read. With this font style being a sans-serif it is easily compatitlbe with a majority of browsers.
 
 ### Future Features
 
