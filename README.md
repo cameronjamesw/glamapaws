@@ -34,7 +34,7 @@ In this section the current features of the Glamapaws website shall be outlined.
 - __About Me__
 
     - The about me section is split into 3 different divs consisting of About Me, Certifications and a photo of Jodie with one of her Golden Retrievers.
-    - The About Me text was provided by Jodie herself and this gives the user an insight into who Jodie is and the background she has come from with the view of transparency. Important text has been colored with `#cc9900` to draw attention to it.
+    - The About Me text was provided by Jodie herself and this gives the user an insight into who Jodie is and the background she has come from with the view of transparency. Important text has been colored with `#CC9900` to draw attention to it.
     - Certifications allows the user to see that Jodie has an official breeding status which is reinforced through the council and trading standards agenciess.
     - A photo of Jodie included with one of her own breeds in order for the user to put a name to a face.
 
@@ -43,7 +43,7 @@ In this section the current features of the Glamapaws website shall be outlined.
 - __About Glamapaws__
 
     - The About Glamapaws contains information about the breeding service that Jodie runs and this also offers futher information to the user on what to expect when purchasing from Glamapaws.
-    - Again, important information is coloured `#cc9900` in order to draw attention to it. The 'Fit to Breed' text is linked to the official kennel club page where the user can find out more on what 'Fit to Breed' means.
+    - Again, important information is coloured `#CC9900` in order to draw attention to it. The 'Fit to Breed' text is linked to the official kennel club page where the user can find out more on what 'Fit to Breed' means.
 
 ![Screenshot of the About Glamapaws setion of the website](assets/images/about-glamapaws-screenshot.png)
 
@@ -91,7 +91,12 @@ In this section the current features of the Glamapaws website shall be outlined.
 
 ![Screenshot of the contact us form where users can enter their details to start an enquiry to Glamapaws.](assets/images/contact-us-screenshot.png)
 
-- __Future Features__
+### Future Features 
+
+- __Reviews__
 
     - After speaking with Jodie since the final deployment of the website, I am looking to implement a reviews section either within the home page, or seperately within a 'reviews' page. A review section would pose further transparency to future users through sharing past clients' experiences. 
+
+- __Breeds Expansion__
+- 
     - Further detail within each of the breeds pages is neccessary. The information is very basic right now, so links to extennal sources such a official breed pages and YouTube videos would be beneficial to the user.
